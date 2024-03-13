@@ -1,0 +1,63 @@
+.container {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15vh;
+}
+
+.titleContainer {
+    padding: 0 5vw;
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.title {
+    font-size: 34px;
+}
+
+.hr {
+    width: 50px;
+    background-color: var(--bgBrand);
+    height: 7px;
+}
+
+.top {
+    flex: 4;
+    display: flex;
+}
+
+.typeCardContainer {
+    flex: 1;
+}
+
+.bottom {
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+        height: 240vh;
+        width: 100vw;
+    }
+
+    .titleContainer {
+        flex: 1;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+}

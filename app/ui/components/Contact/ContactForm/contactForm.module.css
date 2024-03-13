@@ -1,0 +1,170 @@
+.container {
+    height: 130vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+    animation-name: resize;
+    animation-duration: 3s;
+    transition: ease 1000ms;
+    z-index: -1;
+}
+  
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+  
+.backgroundImage {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    opacity: 0.05;
+}
+
+.titleContainer {
+    padding: 0 5vw;
+    flex: 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.title {
+    font-size: 34px;
+}
+
+.hr {
+    width: 50px;
+    background-color: var(--bgBrand);
+    height: 7px;
+}
+
+.subtitle {
+    margin-top: 20px;
+    width: 50vw;
+    line-height: 30px;
+}
+
+.formContainer {
+    flex: 7;
+    display: flex;
+    padding: 0 20vw;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+}
+
+.left {
+    flex: 1;
+    background-color: var(--text);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    color: var(--textBright);
+}
+
+.contactTitle {
+    font-size: 24px;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    flex-direction: row;
+}
+
+.socialIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: var(--bgBright);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.whatsapp:hover {
+    background-color: #25D366; 
+}
+
+.facebook:hover {
+    background-color: #3B5999;
+}
+
+.instagram:hover {
+    background-color: #E4405F;
+}
+
+.right {
+    flex: 1;
+    background-color: var(--textBright);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+        height: 210vh;
+    }
+
+    .titleContainer {
+        padding: 5vh 5vw;
+    }
+
+    .subtitle {
+        width: 90vw;
+    }
+
+    .formContainer {
+        flex-direction: column;
+        padding: 0 5vw;
+    }
+
+    .left {
+        padding: 5vh 0;
+    }
+
+}

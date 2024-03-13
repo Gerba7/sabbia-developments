@@ -1,0 +1,81 @@
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #232a34;
+  }
+  
+  .backgroundImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(100%); /* Apply grayscale filter by default */
+    opacity: 0.1;
+  }
+
+  .descriptionContainer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .title {
+    cursor: default;
+  }
+
+  .description {
+    font-weight: 300;
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+    line-height: 25px;
+    cursor: default;
+  }
+
+  .filter {
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--bgBrand);
+  }
+  
+  .card:hover .filter {
+    opacity: 0.5;
+  }
+
+  
+
+  

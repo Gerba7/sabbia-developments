@@ -1,0 +1,60 @@
+.container {
+    height: 55vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 1);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    color: var(--textBright);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    background-image: url('../../../../../public/images/formCover.jpg');
+}
+
+.back {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-color: rgba(0, 0, 0, 1);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    color: var(--textBright);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 28px;
+    z-index: 5;
+}
+
+.description {
+    width: 35vw;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 5;
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+        height: 65vh;
+    }
+
+    .description {
+        width: 80vw;
+        line-height: 20px;
+    }
+
+}

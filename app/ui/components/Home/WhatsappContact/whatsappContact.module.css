@@ -1,0 +1,25 @@
+.whatsapp {
+    display: inline-block;
+    padding: 0;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.6;
+    z-index: 1100;
+    width: 60px;
+    height: 60px;
+    opacity: 30%;
+}
+
+.whatsapp:hover {
+    transition: all 0.2s ease-in-out;
+    opacity: 100%;
+}
+
+.img {
+    height: 3rem;
+    width: 3rem;
+}

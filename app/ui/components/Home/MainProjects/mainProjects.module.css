@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    height: 120vh;
+    padding: 0 5vw;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 15vh;
+}
+
+.top {
+    flex: 2;
+    display: flex;
+    gap: 2px;
+}
+
+.topLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4vh;
+    padding-right: 6vw;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.subtitleContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 25px;
+    font-weight: 400;
+    justify-self: flex-end;
+    color: var(--bgBrand);
+}
+
+.hr {
+    height: 2px;
+    background-color: var(--bgBrand);   
+    width: 100%; 
+}
+
+.buttonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.cardContainer {
+    flex: 1;
+}
+
+.topRight {
+    flex: 2.5;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+
+.topRightUp {
+    flex: 1;
+    display: flex;
+    gap: 2px;
+}
+
+.topRightDown {
+    flex: 1;
+    display: flex;
+    gap: 2px;
+}
+
+.bottom {
+    flex: 1;
+    display: flex;
+    gap: 2px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .container {
+        height: 250vh;
+        margin-top: 4vh;
+        padding: 0;
+    }
+
+    .header {
+        flex: 1;
+        padding: 0 5vw;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .topLeft {
+        gap: 3vh;
+        flex: 1.5;
+    }
+
+    .topRightUp {
+        flex-direction: column;
+    }
+
+    .topRightDown {
+        flex-direction: column;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+}

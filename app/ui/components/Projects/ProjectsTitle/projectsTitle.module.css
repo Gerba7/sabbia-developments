@@ -1,0 +1,35 @@
+.titleContainer {
+    padding: 5vh 5vw;
+    flex: 3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+    width: 100vw;
+}
+
+.title {
+    font-size: 34px;
+}
+
+.hr {
+    width: 50px;
+    background-color: var(--bgBrand);
+    height: 7px;
+}
+
+.subtitle {
+    margin-top: 20px;
+    width: 50vw;
+    line-height: 30px;
+}
+
+
+@media (max-width: 600px) {
+
+    .subtitle {
+        width: 90vw;
+    }
+
+}

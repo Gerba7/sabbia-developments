@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    background-color: var(--bgBrand);
+    padding: 10vh 5vw;
+    color: var(--textBright);
+    width: 100vw;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.title {
+    display: none;
+}
+
+.left {
+    flex: 1;
+    background-color: var(--bgBrand);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contactTitle {
+    font-size: 24px;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    flex-direction: row;
+}
+
+.socialIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.whatsapp:hover {
+    background-color: #25D366; 
+}
+
+.facebook:hover {
+    background-color: #3B5999;
+}
+
+.instagram:hover {
+    background-color: #E4405F;
+}
+
+
+@media (max-width: 600px) {
+
+    .left {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+}
