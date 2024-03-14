@@ -7,6 +7,7 @@ import Image from 'next/image';
 import Logo from '../../../../public/images/logo.svg';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import { usePathname, useRouter } from 'next/navigation';
 
 
 
@@ -18,6 +19,7 @@ const Navbar = () => {
     const [navHeight, setNavHeight] = useState(false);
     const [displayMenu, setDisplayMenu] = useState(true);
 
+    const pathname = usePathname();
     
     const handleScroll = () => {
         if (window.scrollY >= 80) {
@@ -35,6 +37,11 @@ const Navbar = () => {
         window.removeEventListener('scroll', handleScroll);
       };
     }, []);
+
+
+    useEffect(() => {
+      setDisplayMenu(true);
+    }, [pathname]);
 
 
     const toggleMenu = (e) => {
