@@ -28,7 +28,7 @@ const projects = [
     title: 'SN6 – ALVEAR',
     img: SN6Alvear,
     subtitle: 'PAULINO ROJAS N° 499, esq. Alvear, Ituzaingó',
-    text: 'Edificio de categoría que se destaca por sudiseño, calidad de materiales, detalles determinación y servicios comunes. Departamentos de dos, tres, cuatro y cincoambientes, funcionales y luminosos, creados bajo un concepto de diseño de vanguardia.Terrazas Privadas y Cocheras en Subsuelo. SUM + Coworking + Gym + Piscina +Parque + etc.',
+    text: 'Diseño, calidad de materiales, detalles de terminación y servicios comunes. Departamentos de 2, 3, 4 y 5 ambientes, funcionales y luminosos, creados con diseño de vanguardia.Terrazas Privadas y Cocheras en Subsuelo. SUM + Coworking + Gym + Piscina + Parque',
     left: false
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     title: 'JOCHY 5',
     img: JOCHY5,
     subtitle: 'MONTES DE OCA N° 2482, Castelar',
-    text: 'Exclusivo edificio con Departamentos de 2, 3 y 4 Ambientes. Aberturas de aluminio anodizado con ruptura de puente térmico y doble vidrio. Calefacción individual por piso radiante. Preinstalación de A/A. Agua caliente central con termotanques industriales a gas. Unidades al Frente, con orientación Norte. Terrazas Privadas, con Parrilla. Cocheras Fijas, cubiertas y descubiertas. Bauleras.',
+    text: 'Departamentos de 2, 3 y 4 Ambientes. Aberturas de aluminio con doble vidrio. Calefacción individual por piso radiante. Preinstalación de A/A. Agua caliente central con termotanques industriales a gas. Unidades al Frente, con orientación Norte. Terrazas Privadas, con Parrilla. Cocheras Fijas, cubiertas y descubiertas. Bauleras.',
     left: true
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     title: 'VIVRE LELOIR',
     img: VIVRELELOIR,
     subtitle: 'UDAONDO N° 2051, Pque. Leloir, Ituzaingó',
-    text: 'VIVRE Leloir es un condominio conformado por diez residencias de gran diseño y muy buenas terminaciones. Cada unidad posee una superficie cubierta de aprox. 250 m² y un lote de terreno de aprox. 350 m², con piscina, inmersas en la naturaleza que brinda Parque Leloir.Única entrada vehicular y peatonal, con garita de seguridad, cerco perimetral eléctrico y añosa arboleda.',
+    text: 'VIVRE Leloir es un condominio conformado por diez residencias de gran diseño y muy buenas terminaciones. Cada unidad posee una superficie cubierta de aprox. 250 m² y un lote de terreno de aprox. 350 m², con piscina, inmersas en la naturaleza que brinda Parque Leloir. Única entrada vehicular y peatonal, con garita de seguridad, cerco perimetral eléctrico y añosa arboleda.',
     left: true
   },
   {
@@ -148,7 +148,7 @@ const projects = [
     title: 'PLATINUM OFFICE',
     img: PLATINUMOFFICE,
     subtitle: 'RIVADAVIA 19.861, Castelar, Bs. As.',
-    text: 'Este emprendimiento marca un nuevo concepto de oficinas, de acuerdo con las tendencias actuales que combinan los lugares de trabajo con espacios comerciales. Ubicado a una cuadra y media de la Estación, lado Norte, en un entorno de plena expansión. El emprendimiento incluye 52 Oficinas de PLANTAS FLEXIBLES (con la posibilidad de vincular varias oficinas), 6 Locales Comerciales y 22 Cocheras fijas.', 
+    text: 'Nuevo concepto de oficinas, de acuerdo con las tendencias actuales que combinan los lugares de trabajo con espacios comerciales. Ubicado a una cuadra y media de la Estación, lado Norte, en un entorno de plena expansión. El emprendimiento incluye 52 Oficinas de PLANTAS FLEXIBLES (con la posibilidad de vincular varias oficinas), 6 Locales Comerciales y 22 Cocheras fijas.', 
     left: true
   },
   {
@@ -172,7 +172,7 @@ const projects = [
     title: 'CHIUSO',
     img: CHIUSO,
     subtitle: 'LEANDRO N. ALEM 2521, Castelar, Bs. As.',
-    text: 'Único LOTEO CERRADO conformado por cuatro lotes de terreno de más de 300 m2 cada uno, ubicado a tan solo ocho cuadras de la Estación de Castelar lado Norte. El Acceso vehicular y peatonal al Loteo Residencial será Privado. En cada lote de terreno se podrá construir una Vivienda Unifamiliar. EXCELENTE OPORTUNIDAD PARA VIVIR EN TU CASA SOÑADA, MÁS SEGURO Y MÁS', 
+    text: 'Único LOTEO CERRADO conformado por cuatro lotes de terreno de más de 300 m2 cada uno, ubicado a solo ocho cuadras de la Estación de Castelar lado Norte. Acceso vehicular y peatonal al Loteo Residencial Privado. En cada lote de terreno se podrá construir una Vivienda Unifamiliar. EXCELENTE OPORTUNIDAD PARA VIVIR EN TU CASA SOÑADA, MÁS SEGURO Y MÁS', 
     left: false
   }
 ]

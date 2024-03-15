@@ -75,3 +75,12 @@
     animation: bounce 2s infinite;
     color: #fff;
   }
+
+
+  @media (max-width: 600px) {
+
+    .link {
+      bottom: 80px;
+    }
+
+  }

@@ -2,7 +2,9 @@
 
 import Image from 'next/image';
 import styles from './row.module.css';
-import { useEffect, useRef, useState } from 'react';
+import { use, useEffect, useRef, useState } from 'react';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 
 
@@ -13,6 +15,7 @@ const Row = ({img, title, text, left, row, content, subtitle}) => {
     
     const [isVisible, setVisible] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
+    const [displayText, setDisplayText] = useState(false);
 
     const ref = useRef();
 
@@ -51,6 +54,11 @@ const Row = ({img, title, text, left, row, content, subtitle}) => {
     }, []);
 
 
+    const handleTextVisibility = () => {
+        setDisplayText(!displayText)
+    }
+
+
 
   return (
     <div className={styles.container} id='row'> 
@@ -69,7 +77,10 @@ const Row = ({img, title, text, left, row, content, subtitle}) => {
                     <div className={styles.hr}></div>
                 </div>
                 <h2 className={styles.subtitle}>{subtitle}</h2>
-                <p className={styles.text}>
+                <div className={styles.arrowContainer} onClick={handleTextVisibility}>
+                    {displayText ? <KeyboardArrowUpIcon color="#fff" style={{fontSize: 'inherit'}} /> : <KeyboardArrowDownIcon color="#fff" style={{fontSize: 'inherit'}} />}
+                </div>
+                <p className={`${styles.text} ${displayText ? styles.textVisible : ''}`}>
                     {text}
                 </p>
             </div>
