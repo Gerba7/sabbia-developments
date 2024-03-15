@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    background-color: var(--bgBrand);
+    background-color: var(--text);
     padding: 10vh 5vw;
     color: var(--textBright);
     width: 100vw;
@@ -18,7 +18,7 @@
 
 .left {
     flex: 1;
-    background-color: var(--bgBrand);
+    background-color: var(--text);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -57,7 +57,7 @@
     height: 40px;
     border-radius: 15px;
     color: #fff;
-    background-color: var(--text);
+    background-color: var(--bgBrand);
     display: flex;
     align-items: center;
     justify-content: center;

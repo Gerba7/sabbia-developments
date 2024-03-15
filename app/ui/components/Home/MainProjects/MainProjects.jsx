@@ -15,7 +15,8 @@ import Project8 from '../../../../../public/images/PERLA1.jpg';
 
 const MainProjects = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} >
+      <div className={styles.scrollOffset} id='main'></div>
       <div className={styles.top}>
         <div className={styles.topLeft}>
           <div className={styles.header}>
@@ -23,7 +24,7 @@ const MainProjects = () => {
               <h2 className={styles.title}>PROYECTOS</h2>
               <div className={styles.subtitleContainer}>
                 <div className={styles.hr} />
-                <h6 className={styles.subtitle}>PRINCIPALES</h6>
+                <h3 className={styles.subtitle}>PRINCIPALES</h3>
               </div>
             </div>
             <div className={styles.buttonContainer}>

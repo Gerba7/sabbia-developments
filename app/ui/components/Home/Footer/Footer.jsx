@@ -30,15 +30,15 @@ const Footer = () => {
             </div>
             <div className={styles.iconsContainer}>
                 <div className={styles.icon}>
-                    <FmdGoodOutlinedIcon style={{color: '#222836'}}/>
+                    <FmdGoodOutlinedIcon style={{color: '#7385B5'}}/>
                     <p className={styles.iconText}>Av. del Libertador 3332</p>
                 </div>
                 <div className={styles.icon}>
-                    <LocalPhoneOutlinedIcon style={{color: '#222836'}} />
+                    <LocalPhoneOutlinedIcon style={{color: '#7385B5'}} />
                     <p className={styles.iconText}>+54 11 2345 5432</p>
                 </div>
                 <div className={styles.icon}>
-                    <AlternateEmailOutlinedIcon style={{color: '#222836'}} />
+                    <AlternateEmailOutlinedIcon style={{color: '#7385B5'}} />
                     <p className={styles.iconText}>contacto@sabbia.com.ar</p>
                 </div>
             </div>

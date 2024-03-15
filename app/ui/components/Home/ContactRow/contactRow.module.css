@@ -50,6 +50,7 @@
 
     .container {
         height: 65vh;
+        will-change: transform;
     }
 
     .description {

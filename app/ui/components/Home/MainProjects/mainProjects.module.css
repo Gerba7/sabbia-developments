@@ -5,6 +5,14 @@
     flex-direction: column;
     gap: 2px;
     margin-bottom: 15vh;
+    position: relative;
+}
+
+.scrollOffset {
+    background-color: yellow;
+    position: absolute;
+    top: -80px;
+    height: 80px;
 }
 
 .top {
