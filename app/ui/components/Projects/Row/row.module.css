@@ -192,3 +192,12 @@
     }
 
 }
+
+
+@media (max-height: 800px) {
+
+    .container {
+        height: 90vh;
+    }
+
+}

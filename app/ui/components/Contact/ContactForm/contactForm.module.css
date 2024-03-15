@@ -168,3 +168,24 @@
     }
 
 }
+
+
+@media (max-height: 800px) {
+
+    .container {
+        height: 160vh;
+    }
+
+    .slide {
+        height: 160vh;
+    }
+
+    .titleContainer {
+        padding: 5vh 5vw;
+    }
+
+    .formContainer {
+        padding: 0 5vw;
+    }
+
+}
