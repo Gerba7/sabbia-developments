@@ -3,6 +3,7 @@ import SabbiaCover from '../../../../../public/images/cover.jpg';
 import Image from 'next/image';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Link from 'next/link';
+import SabbiaCoverTest from '../../../../../public/images/CoverTest.jpg';
 
 
 
@@ -11,7 +12,7 @@ const Cover = () => {
     <div className={styles.container}>
       <div className={styles.slide}>
         <div className={styles.background}>
-          <Image className={styles.backgroundImage} src={SabbiaCover} alt='Sabbia cover' priority />
+          <Image className={styles.backgroundImage} src={SabbiaCoverTest} alt='Sabbia cover' priority />
         </div>
       </div>
       <Link className={styles.link} href="#main" aria-label='linkArrow'>

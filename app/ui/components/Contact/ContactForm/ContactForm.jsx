@@ -11,7 +11,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Form from './Form/Form';
-
+import Sabbia_Logo from '../../../../../public/images/SABBIA_LOGO_BRIGHT.png';
 
 
 
@@ -32,19 +32,19 @@ const ContactForm = () => {
       </div>
       <div className={styles.formContainer}>
         <div className={styles.left}>
-            <Image src={Logo} alt='sabbia logo' width={100} height={100} />
+            <Image src={Sabbia_Logo} alt='sabbia logo' width={200} height={40} />
             <h3 className={styles.contactTitle}>Datos de Contacto</h3>
             <div className={styles.iconsContainer}>
                 <div className={styles.icon}>
-                    <FmdGoodOutlinedIcon style={{color: '#8EA4E0'}}/>
+                    <FmdGoodOutlinedIcon style={{color: '#55504d'}}/>
                     <p className={styles.iconText}>Av. del Libertador 3332</p>
                 </div>
                 <div className={styles.icon}>
-                    <LocalPhoneOutlinedIcon style={{color: '#8EA4E0'}} />
+                    <LocalPhoneOutlinedIcon style={{color: '#55504d'}} />
                     <p className={styles.iconText}>+54 11 2345 5432</p>
                 </div>
                 <div className={styles.icon}>
-                    <AlternateEmailOutlinedIcon style={{color: '#8EA4E0'}} />
+                    <AlternateEmailOutlinedIcon style={{color: '#55504d'}} />
                     <p className={styles.iconText}>contacto@sabbia.com.ar</p>
                 </div>
             </div>

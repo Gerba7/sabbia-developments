@@ -2,7 +2,8 @@
     height: 110vh;
     display: flex;
     flex-direction: column;
-    background-color: var(--bgHoverOpaque);
+    background-color: var(--bgDark);
+    color: #fff;
 }
 
 .titleContainer {
@@ -21,7 +22,7 @@
 
 .hr {
     width: 50px;
-    background-color: var(--bgBrand);
+    background-color: var(--text);
     height: 7px;
 }
 

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import styles from './navbar.module.css';
 import Link from "next/link";
 import Image from 'next/image';
-import Logo from '../../../../public/images/logo.svg';
+import Sabbia_Logo from '../../../../public/images/SABBIA_LOGO_BRIGHT.png';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { usePathname, useRouter } from 'next/navigation';
@@ -62,7 +62,7 @@ const Navbar = () => {
               </div>
               <Link href='/'>
                   <h1 className={styles.title}>Book IT</h1>
-                  <Image src={Logo} alt='logo Sabbia' width={navHeight ? 100 : 150} height={navHeight ? 100 : 150} priority />
+                  <Image src={Sabbia_Logo} alt='logo Sabbia' width={navHeight ? 130 : 150} height={navHeight ? 30 : 30} priority />
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>

@@ -48,7 +48,7 @@
       -o-object-fit: cover;
       object-fit: cover;
       background: #232a34;
-      opacity: 0.8;
+      /*opacity: 0.8;*/
   }
 
   @keyframes bounce {

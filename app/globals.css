@@ -1,9 +1,9 @@
 :root {
   --bg: #fff;
-  --bgBrand: #7385B5; 
-  --bgBright: #8EA4E0;
-  --bgDark: #58668B;
-  --text: #222836;
+  --bgBrand: #55504d;  /* #7385B5 */
+  --bgBright: #55504d;   /* #8EA4E0*/
+  --bgDark: #55504d;   /*#58668B*/
+  --text: #333333;    /* #222836 */
   --textBright: #FFFAFA;
   --textDark: #3D4760;
   --bgHover: #d1c4e9;
