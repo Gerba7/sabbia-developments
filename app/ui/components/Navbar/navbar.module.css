@@ -89,6 +89,10 @@
         padding: 0;
     }
 
+    .logoNavbar {
+        margin-left: 20px;
+    }
+
     .burger {
         display: flex;
         align-items: center;

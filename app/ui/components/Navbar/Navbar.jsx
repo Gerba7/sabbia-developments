@@ -62,7 +62,7 @@ const Navbar = () => {
               </div>
               <Link href='/'>
                   <h1 className={styles.title}>Book IT</h1>
-                  <Image src={Sabbia_Logo} alt='logo Sabbia' width={navHeight ? 130 : 150} height={navHeight ? 30 : 30} priority />
+                  <Image className={styles.logoNavbar} src={Sabbia_Logo} alt='logo Sabbia' width={navHeight ? 130 : 150} height={navHeight ? 30 : 30} priority />
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
