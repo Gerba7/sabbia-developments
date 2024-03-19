@@ -3,7 +3,7 @@ import SabbiaCover from '../../../../../public/images/cover.jpg';
 import Image from 'next/image';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Link from 'next/link';
-import SabbiaCoverTest from '../../../../../public/images/JOCHY5.jpg';
+import SabbiaCoverTest from '../../../../../public/images/SABBIA_COVER_TEST2.png';   // JOCHY5.jpg
 import SabbiaLogo from '../../../../../public/images/SABBIA_LOGO_BRIGHT.png';
 
 

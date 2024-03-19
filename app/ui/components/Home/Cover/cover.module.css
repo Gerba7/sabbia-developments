@@ -48,7 +48,7 @@
       -o-object-fit: cover;
       object-fit: cover;
       background: #333333;  /*#232a34*/
-      opacity: 0.2;
+      opacity: 1;    /* 0.2 */
   }
 
   .coverLogo {
