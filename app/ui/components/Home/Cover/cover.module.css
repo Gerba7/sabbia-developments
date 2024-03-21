@@ -39,7 +39,9 @@
       width: 100%;
       height: 100%;
       overflow: hidden;
-      background: #232a34;
+      /* background: #232a34; */
+      background: rgb(95,92,88);
+      background: linear-gradient(90deg, rgba(95,92,88,1) 0%, rgba(130,127,124,1) 34%, rgba(95,92,88,1) 100%);
   }
   
   .backgroundImage {
@@ -48,7 +50,7 @@
       -o-object-fit: cover;
       object-fit: cover;
       background: #333333;  /*#232a34*/
-      opacity: 1;    /* 0.2 */
+      opacity: .6;    /* 0.2*/
   }
 
   .coverLogo {
