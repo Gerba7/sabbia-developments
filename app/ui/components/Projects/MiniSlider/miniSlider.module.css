@@ -154,4 +154,8 @@
         width: 100vw;
     }
 
+    .dotsContainer {
+        display: none;
+    }
+
 }

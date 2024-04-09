@@ -184,7 +184,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div>
+    <div style={{overflowX: 'hidden'}}>
       {/* <ProjectsCover /> */}
       <PageCover2 img={ProjectsImg} />
       {/* <ProjectsTitle /> */}
