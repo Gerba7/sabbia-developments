@@ -20,6 +20,9 @@ import PLATINUMCARLOSCASARES from '../../public/images/PLATINUMCARLOSCASARES.png
 import PAVILON from '../../public/images/PAVILON.png';
 import Row from "../ui/components/Projects/Row/Row";
 import ProjectsTitle from "../ui/components/Projects/ProjectsTitle/ProjectsTitle";
+import ProjectsImg from '../../public/images/JOCHY5.jpg';
+import PageCover2 from "../ui/components/Common/PageCover/PageCover2";
+import Row2 from "../ui/components/Projects/Row/Row2";
 
 
 const projects = [
@@ -182,8 +185,10 @@ const projects = [
 const Projects = () => {
   return (
     <div>
-      <ProjectsCover />
-      <ProjectsTitle />
+      {/* <ProjectsCover /> */}
+      <PageCover2 img={ProjectsImg} />
+      {/* <ProjectsTitle /> */}
+      <Row2 />
       {projects.map((project) => {
         return(
           <Row key={project.id} img={project.img} title={project.title} subtitle={project.subtitle} left={project.left} text={project.text} />

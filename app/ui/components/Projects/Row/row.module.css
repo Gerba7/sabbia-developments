@@ -60,6 +60,7 @@
     align-items: center;
     opacity: 0;
     overflow-y: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .visible {
@@ -70,6 +71,7 @@
     fill: #fff;
     width: 100%;
     height: auto;
+    
 }
 
 .right {

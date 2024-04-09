@@ -61,7 +61,7 @@ const Navbar = () => {
                 </div>
               </div>
               <Link href='/'>
-                  <h1 className={styles.title}>Book IT</h1>
+                  <h1 className={styles.title}>Sabbia</h1>
                   <Image className={styles.logoNavbar} src={Sabbia_Logo} alt='logo Sabbia' width={navHeight ? 120 : 150} height={navHeight ? 25 : 30} priority />
               </Link>
           </div>
