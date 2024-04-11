@@ -132,6 +132,7 @@
     color: var(--textBright);
     margin-bottom: 5px;
     font-weight: 300;
+    font-style: italic;
 }
 
 .arrowContainer {

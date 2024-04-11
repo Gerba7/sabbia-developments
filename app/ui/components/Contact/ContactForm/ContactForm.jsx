@@ -37,11 +37,11 @@ const ContactForm = () => {
             <div className={styles.iconsContainer}>
                 <div className={styles.icon}>
                     <FmdGoodOutlinedIcon style={{color: '#55504d'}}/>
-                    <p className={styles.iconText}>Av. del Libertador 3332</p>
+                    <p className={styles.iconText}>Gdor. I. Arias 2671</p>
                 </div>
                 <div className={styles.icon}>
                     <LocalPhoneOutlinedIcon style={{color: '#55504d'}} />
-                    <p className={styles.iconText}>+54 11 2345 5432</p>
+                    <p className={styles.iconText}>+54 11 4624 0487</p>
                 </div>
                 <div className={styles.icon}>
                     <AlternateEmailOutlinedIcon style={{color: '#55504d'}} />

@@ -1,5 +1,5 @@
 .container {
-    height: 130vh;
+    height: 80vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -34,6 +34,12 @@
 
 .slider {
     width: 35%;
+    height: 0vh;
+    transition: height .5s ease-in;
+    will-change: height;
+}
+
+.visible {
     height: 50vh;
 }
 
@@ -76,6 +82,7 @@
     font-weight: 700;
 }
 
+
 .subtitleContainer {
     display: flex;
     flex-direction: row;
@@ -91,11 +98,11 @@
     color: #f5f5f5;
 }
 
-.hr {
+/* .hr {
     height: 2px;
     background-color: #f5f5f5;   
     width: 100%; 
-}
+} */
 
 .buttonContainer {
     display: flex;
@@ -107,6 +114,8 @@
 .paragraph {
     color: #f5f5f5; 
     line-height: 2rem;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .secondTitle {
@@ -114,18 +123,26 @@
     font-size: 25px;
 }
 
+.hr {
+    width: 100px;
+    background-color: var(--bgBrand);
+    height: 4px;
+    color: var(--textBright);
+    margin-top: 10px;
+    border: none;
+}
+
 
 
 @media (max-width: 600px) {
 
     .container {
-        height: 220vh;
+        height: 130vh;
     }
 
     .slider {
         width: 100%;
-        height: 40vh;
-        order: 2;
+        order: 1;
     }
 
     .wrapper {
@@ -135,15 +152,13 @@
     .textContainer {
         width: 100%;
         padding: 5vw;
-        order: 1;
+        order: 2;
+        gap: 5vh;
+        margin-bottom: 10vh;
     }
 
-    .secondTitle {
-        font-size: 18px;
-    }
-    
     .paragraph {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.5rem;
     }
 
@@ -155,12 +170,9 @@
 
 @media (max-height: 700px) and (min-width: 1000px) {
 
-    .secondTitle {
-        font-size: 20px;
-    }
     
     .paragraph {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.5rem;
     }
     

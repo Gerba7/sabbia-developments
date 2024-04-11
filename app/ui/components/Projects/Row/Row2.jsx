@@ -1,4 +1,6 @@
-import React from 'react';
+'use client'
+
+import React, { useEffect, useRef, useState } from 'react';
 import styles from './row2.module.css';
 import MiniSlider from '../MiniSlider/MiniSlider';
 import Casa1a from '../../../../../public/images/casas/Casa1a.jpeg';
@@ -110,10 +112,35 @@ const casa2 = [
 
 const Row2 = ({left = true}) => {
 
+    const [isVisible, setVisible] = useState(false);
+
+    const ref = useRef();
+
+
+
+
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+        (entries) => {
+            if (entries[0].isIntersecting) {
+            setVisible(true);
+            }
+        },
+        { threshold: 0.5 }
+        );
+        observer.observe(ref.current);
+
+        return () => {
+        observer.disconnect();
+        };
+    }, [])
+
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} ref={ref}>
       <div className={styles.background} />
-      <div className={styles.wrapper}>
+      {/* <div className={styles.wrapper}>
         <div className={`${styles.textContainer}`}>
             <div className={styles.header}>
                 <div className={styles.texts}>
@@ -130,13 +157,16 @@ const Row2 = ({left = true}) => {
         <div className={`${styles.slider}`}>
             <MiniSlider items={casa1} />
         </div>
-      </div>
+      </div> */}
       <div className={styles.wrapper}>
-        <div className={`${styles.slider}`}>
+        <div className={`${styles.slider} ${isVisible ? styles.visible : ''}`}  ref={ref}>
             <MiniSlider items={casa2} />
         </div>
         <div className={`${styles.textContainer}`} style={{alignItems: 'flex-start'}}>
-            <h3 className={styles.secondTitle}>VIVIENDAS UNIFAMILIARES - ZONA OESTE</h3>
+            <div className={styles.titleContainer}>
+                <h1 className={styles.secondTitle}>VIVIENDAS UNIFAMILIARES - Zona Oeste</h1>
+                <hr className={styles.hr} />
+            </div>
             <p className={styles.paragraph}>
             - Sus superficies  de 700 a 750 m2 cubiertos respectivamente. <br/>
             - Ambas de 5 ambientes con dependencia de servicio <br/>
@@ -145,7 +175,7 @@ const Row2 = ({left = true}) => {
             - Losa radiante más equipos de A/A central <br/>
             - Ventanas de pvc / aluminio DVH, <br/>
             - Diseño de volúmenes, techos planos y líneas rectas<br/>
-            - Construcción tradicional de H° / mampostería , terminaciones <br/>
+            - Construcción tradicional de H° / mampostería , terminaciones
             en yeso , madera y piedra.
             </p>
         </div>

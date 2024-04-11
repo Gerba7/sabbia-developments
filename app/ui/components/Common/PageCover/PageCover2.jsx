@@ -9,7 +9,7 @@ const PageCover2 = ({img}) => {
     <div className={styles.container}>
       <div className={styles.slide}>
         <div className={styles.background}>
-          <Image className={styles.backgroundImage} src={img} alt='Sabbia cover' priority />
+          {/* <Image className={styles.backgroundImage} src={img} alt='Sabbia cover' priority /> */}
         </div>
         <div className={styles.titleContainer}>
             <h1 className={styles.title}>PROYECTOS</h1>

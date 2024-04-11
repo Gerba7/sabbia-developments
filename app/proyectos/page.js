@@ -188,12 +188,12 @@ const Projects = () => {
       {/* <ProjectsCover /> */}
       <PageCover2 img={ProjectsImg} />
       {/* <ProjectsTitle /> */}
-      <Row2 />
       {projects.map((project) => {
         return(
           <Row key={project.id} img={project.img} title={project.title} subtitle={project.subtitle} left={project.left} text={project.text} />
         )
       })}
+      <Row2 />
     </div>
   )
 }
