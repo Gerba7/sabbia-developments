@@ -51,11 +51,17 @@
     .container {
         height: 65vh;
         will-change: transform;
+        background-attachment:unset;
+    }
+
+    .back {
+        opacity: .5;
     }
 
     .description {
         width: 80vw;
         line-height: 20px;
+        text-align: center
     }
 
 }

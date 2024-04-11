@@ -147,6 +147,7 @@
 
     .wrapper {
         flex-direction: column;
+        gap: 10vh;
     }
 
     .textContainer {
@@ -154,7 +155,7 @@
         padding: 5vw;
         order: 2;
         gap: 5vh;
-        margin-bottom: 10vh;
+        margin-bottom: 5vh;
     }
 
     .paragraph {

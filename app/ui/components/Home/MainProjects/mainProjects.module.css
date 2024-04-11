@@ -116,6 +116,15 @@
     .header {
         flex: 1;
         padding: 0 5vw;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .subtitle {
+        font-size: 20px;
     }
 
     .top {
