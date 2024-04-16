@@ -186,7 +186,7 @@ const Projects = () => {
   return (
     <div style={{overflowX: 'hidden'}}>
       {/* <ProjectsCover /> */}
-      <PageCover2 img={ProjectsImg} />
+      <PageCover2 img={ProjectsImg} title={'PROYECTOS'} />
       {/* <ProjectsTitle /> */}
       {projects.map((project) => {
         return(

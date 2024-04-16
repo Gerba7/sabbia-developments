@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 
 
-const PageCover2 = ({img}) => {
+const PageCover2 = ({img, title}) => {
     
   return (
     <div className={styles.container}>
@@ -12,7 +12,7 @@ const PageCover2 = ({img}) => {
           {/* <Image className={styles.backgroundImage} src={img} alt='Sabbia cover' priority /> */}
         </div>
         <div className={styles.titleContainer}>
-            <h1 className={styles.title}>PROYECTOS</h1>
+            <h1 className={styles.title}>{title}</h1>
             <div className={styles.hr}></div>
         </div>
       </div>

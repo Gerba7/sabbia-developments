@@ -164,17 +164,17 @@ const Row2 = ({left = true}) => {
         </div>
         <div className={`${styles.textContainer}`} style={{alignItems: 'flex-start'}}>
             <div className={styles.titleContainer}>
-                <h1 className={styles.secondTitle}>VIVIENDAS UNIFAMILIARES - Zona Oeste</h1>
+                <h1 className={styles.secondTitle}>VIVIENDAS UNIFAMILIARES</h1>
                 <hr className={styles.hr} />
             </div>
             <p className={styles.paragraph}>
             - Sus superficies  de 700 a 750 m2 cubiertos respectivamente. <br/>
-            - Ambas de 5 ambientes con dependencia de servicio <br/>
-            - Baños en suite <br/>
-            - Playroom , quincho con pileta cubierta y descubierta<br/>
-            - Losa radiante más equipos de A/A central <br/>
-            - Ventanas de pvc / aluminio DVH, <br/>
-            - Diseño de volúmenes, techos planos y líneas rectas<br/>
+            - Ambas de 5 ambientes con dependencia de servicio. <br/>
+            - Baños en suite. <br/>
+            - Playroom , quincho con pileta cubierta y descubierta.<br/>
+            - Losa radiante más equipos de A/A central. <br/>
+            - Ventanas de pvc / aluminio DVH. <br/>
+            - Diseño de volúmenes, techos planos y líneas rectas.<br/>
             - Construcción tradicional de H° / mampostería , terminaciones
             en yeso , madera y piedra.
             </p>

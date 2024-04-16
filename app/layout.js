@@ -10,6 +10,10 @@ const barlow = Barlow({ subsets: ["latin"], display: 'swap', weight: ['300', '40
 const customFont = localFont({
   src: [
     {
+      path: '../public/fonts/helvetica-light.ttf',
+      weight: '300',
+    },
+    {
       path: '../public/fonts/Helvetica.ttf',
       weight: '500',
       style: 'normal',

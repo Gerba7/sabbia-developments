@@ -1,6 +1,7 @@
 import Image from "next/image"
 import ContactCover from "../ui/components/Contact/ContactCover/ContactCover"
 import ContactForm from "../ui/components/Contact/ContactForm/ContactForm"
+import PageCover2 from "../ui/components/Common/PageCover/PageCover2"
 
 
 
@@ -9,8 +10,9 @@ import ContactForm from "../ui/components/Contact/ContactForm/ContactForm"
 const Contact = () => {
   return (
     <div>
-      <ContactCover />
-      <ContactForm />
+      {/* <ContactCover />*/}
+      <PageCover2 title={'CONTACTO'} />
+      <ContactForm /> 
     </div>
   )
 }

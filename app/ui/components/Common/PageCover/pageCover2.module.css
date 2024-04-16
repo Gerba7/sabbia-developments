@@ -68,6 +68,7 @@
   width: 50%;
   background-color: var(--bgBrand);
   height: 5px;
+  margin-left: 5px;
 }
 
 
@@ -93,4 +94,7 @@
     font-size: 36px;
   }
 
+  .hr {
+    margin-left: 2px;
+  }
 }
