@@ -10,7 +10,7 @@ const WhoWeAre = () => {
     <div>
       {/* <PageCover img={WhoWeAreCover} />
       <Header title={'QUIENES SOMOS'} /> */}
-      <PageCover2 title={'QUIENES SOMOS'} />
+      <PageCover2 title={'EMPRESA'} />
       <div style={{height: '50vh'}}></div>
     </div>
   )

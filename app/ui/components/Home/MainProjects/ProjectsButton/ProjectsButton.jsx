@@ -6,9 +6,7 @@ import Link from 'next/link';
 
 const ProjectsButton = () => {
   return (
-    <div>
       <Link href='/proyectos' className={styles.button}>VER TODOS LOS PROYECTOS   &gt;</Link>
-    </div>
   )
 }
 

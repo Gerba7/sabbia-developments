@@ -140,7 +140,7 @@ const Row2 = ({left = true}) => {
   return (
     <div className={styles.container} ref={ref}>
       <div className={styles.background} />
-      {/* <div className={styles.wrapper}>
+      <div className={styles.wrapper}>
         <div className={`${styles.textContainer}`}>
             <div className={styles.header}>
                 <div className={styles.texts}>
@@ -154,18 +154,17 @@ const Row2 = ({left = true}) => {
                 </div>
             </div>
         </div>
-        <div className={`${styles.slider}`}>
+        <div className={`${styles.slider} ${isVisible ? styles.visible : ''}`} ref={ref}>
             <MiniSlider items={casa1} />
         </div>
-      </div> */}
+      </div>
       <div className={styles.wrapper}>
-        <div className={`${styles.slider} ${isVisible ? styles.visible : ''}`}  ref={ref}>
+        <div className={`${styles.slider} ${styles.orderLeft} ${isVisible ? styles.visible : ''}`}  ref={ref}>
             <MiniSlider items={casa2} />
         </div>
-        <div className={`${styles.textContainer}`} style={{alignItems: 'flex-start'}}>
+        <div className={`${styles.textContainer} ${styles.orderRight}`} style={{alignItems: 'flex-start'}}>
             <div className={styles.titleContainer}>
-                <h1 className={styles.secondTitle}>VIVIENDAS UNIFAMILIARES</h1>
-                <hr className={styles.hr} />
+                <h1 className={styles.secondTitle}>CARACTERISTICAS</h1>
             </div>
             <p className={styles.paragraph}>
             - Sus superficies  de 700 a 750 m2 cubiertos respectivamente. <br/>

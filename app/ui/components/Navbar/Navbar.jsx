@@ -66,7 +66,7 @@ const Navbar = () => {
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
-              <Link href='/quienes-somos' style={{width: 'max-content'}}>Quiénes Somos</Link>
+              <Link href='/empresa' style={{width: 'max-content'}}>Empresa</Link>
               <Link href='/servicios'>Servicios</Link>
               <Link href='/proyectos'>Proyectos</Link>
               <Link href='/contacto'>Contacto</Link>

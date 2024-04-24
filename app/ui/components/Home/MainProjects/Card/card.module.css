@@ -6,9 +6,9 @@
     overflow: hidden;
     z-index: 2;
     cursor: pointer;
-  }
+}
   
-  .background {
+.background {
     position: absolute;
     top: 0;
     right: 0;
@@ -18,23 +18,23 @@
     height: 100%;
     overflow: hidden;
     background: #232a34;
-  }
+}
   
-  .backgroundImage {
+.backgroundImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    filter: grayscale(100%); /* Apply grayscale filter by default */
+    /* filter: grayscale(100%);  */
     transition: filter 0.5s;
     transition: scale 0.5s;
-  }
+}
 
-  .descriptionContainer {
-    position: absolute;
+.descriptionContainer {
+    position: relative;
     width: 100%;
     background-color: #222836c2;
-    height: 50px;
+    height: 100%;
     bottom: 0;
     left: 50%;
     transform: translate(-50%);
@@ -45,19 +45,56 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.title {
+    font-weight: 300;
+    transition: opacity 0.5s;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.description {
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    padding: 40px;
+    transition: opacity 0.5s;
+    white-space: pre-line;
+    line-height: 25px;
+}
+  
+.card:hover .backgroundImage {
+    filter: grayscale(0%); /* Remove grayscale filter on hover */
+    scale: 1.2;
+}
+
+.card:hover .descriptionContainer {
+    opacity: 1;
+}
+
+
+@media (max-width: 600px) {
+
+  .visible {
+    opacity: 0;
+  }
+  
+  .hidden {
+    opacity: 1;
   }
 
   .description {
-    font-weight: 300;
-  }
-  
-  .card:hover .backgroundImage {
-    filter: grayscale(0%); /* Remove grayscale filter on hover */
-    scale: 1.2;
+    padding: 10px;
+    font-size: 12px;
   }
 
-  .card:hover .descriptionContainer {
-    opacity: 1;
-  }
+}
 
   

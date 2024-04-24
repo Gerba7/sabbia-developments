@@ -1,4 +1,4 @@
-import ProjectsCover from "../ui/components/Projects/ContactCover/ProjectsCover";
+
 import SN6Alvear from '../../public/images/SN6Alvear.jpg';
 import JOCHY5 from '../../public/images/JOCHY5.jpg';
 import MONINA from '../../public/images/MONINA.jpg';
@@ -71,7 +71,7 @@ const projects = [
     title: 'JOCHY 2',
     img: JOCHY2,
     subtitle: 'ARREDONDO 2350, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.008 - Avance de Obra: Terminado - Superficie: 3.960 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.008 \n - Avance de Obra: Terminado \n - Superficie: 3.960 m² (aprox.)', 
     left: true
   },
   {
@@ -79,7 +79,7 @@ const projects = [
     title: 'JOCHY 3',
     img: JOCHY3,
     subtitle: 'RODRIGUEZ PEÑA 993, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.010 - Avance de Obra: Terminado - Superficie: 1.970 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.010 \n - Avance de Obra: Terminado \n - Superficie: 1.970 m² (aprox.)', 
     left: false
   },
   {
@@ -87,15 +87,15 @@ const projects = [
     title: 'JOCHY 4',
     img: JOCHY4,
     subtitle: 'GDOR. I. ARIAS 2353, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.012 - Avance de Obra: Terminado - Superficie: 2.180 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.012 \n - Avance de Obra: Terminado \n - Superficie: 2.180 m² (aprox.)', 
     left: true
   },
   {
     id: 8,
-    title: 'VICENZO',
+    title: 'VINCENZO',
     img: VICENZO,
     subtitle: 'SAN PEDRO 833, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.015 - Avance de Obra: Terminado - Superficie: 880 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.015 \n - Avance de Obra: Terminado \n - Superficie: 880 m² (aprox.)', 
     left: false
   },
   {
@@ -103,7 +103,7 @@ const projects = [
     title: 'GIUSEPPINA',
     img: GIUSEPPINA,
     subtitle: 'POMPEYA 2426, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.017 - Avance de Obra: Terminado - Superficie: 900 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.017 \n - Avance de Obra: Terminado \n - Superficie: 900 m² (aprox.)', 
     left: true
   },
   {
@@ -111,7 +111,7 @@ const projects = [
     title: 'PERLA 1',
     img: PERLA1,
     subtitle: 'RODRIGUEZ PEÑA 932, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.021 - Avance de Obra: Terminado - Superficie: 780 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.021 \n - Avance de Obra: Terminado \n - Superficie: 780 m² (aprox.)', 
     left: false
   },
   {
@@ -119,7 +119,7 @@ const projects = [
     title: 'PERLA 2',
     img: PERLA2,
     subtitle: 'MONTES DE OCA 2530, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.021 - Avance de Obra: Terminado - Superficie: 780 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.021 \n - Avance de Obra: Terminado \n - Superficie: 780 m² (aprox.)', 
     left: true
   },
   {
@@ -127,7 +127,7 @@ const projects = [
     title: 'EVOLUZIONE 2',
     img: EVOLUZIONE2,
     subtitle: 'FRANCIA 2584, Castelar, Bs. As.',
-    text: 'Departamentos de 2 ambientes con cocheras y terrazas privadas. Apto profesional.', 
+    text: 'Departamentos de 2 ambientes con cocheras y terrazas privadas. \n Apto profesional.', 
     left: false
   },
   {
@@ -184,10 +184,10 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div style={{overflowX: 'hidden'}}>
+    <div style={{overflowX: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
       {/* <ProjectsCover /> */}
       <PageCover2 img={ProjectsImg} title={'PROYECTOS'} />
-      {/* <ProjectsTitle /> */}
+      <ProjectsTitle />
       {projects.map((project) => {
         return(
           <Row key={project.id} img={project.img} title={project.title} subtitle={project.subtitle} left={project.left} text={project.text} />

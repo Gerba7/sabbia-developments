@@ -8,7 +8,7 @@ import WappLogo from '../../../../../public/images/WappLogo.png';
 
 const WhatsappContact = () => {
   return (
-    <Link className={styles.whatsapp} href="https://api.whatsapp.com/send?phone=5491111111111">
+    <Link className={styles.whatsapp} href="https://api.whatsapp.com/send?phone=5491144090600">
       <Image className={styles.img} src={WappLogo} alt='wappLogo' />
     </Link>
   )

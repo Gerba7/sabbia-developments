@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./ui/components/Navbar/Navbar";
 import Footer from "./ui/components/Home/Footer/Footer";
 import localFont from 'next/font/local';
+import ProjectModal from "./ui/components/Home/MainProjects/Modal/Modal";
 
 
 const barlow = Barlow({ subsets: ["latin"], display: 'swap', weight: ['300', '400', '500', '600', '700', '800'], });

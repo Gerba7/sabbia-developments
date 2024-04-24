@@ -1,5 +1,5 @@
 .container {
-    height: 80vh;
+    height: 130vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@
 }
 
 .visible {
-    height: 50vh;
+    height: 45vh;
 }
 
 .orderLeft {
@@ -78,7 +78,7 @@
 }
 
 .title {
-    font-size: 60px;
+    font-size: 52px;
     font-weight: 700;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .subtitle {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     justify-self: flex-end;
     color: #f5f5f5;
@@ -124,11 +124,10 @@
 }
 
 .hr {
-    width: 100px;
+    width: 108px;
     background-color: var(--bgBrand);
     height: 4px;
     color: var(--textBright);
-    margin-top: 10px;
     border: none;
 }
 
@@ -137,12 +136,11 @@
 @media (max-width: 600px) {
 
     .container {
-        height: 130vh;
+        height: 250vh;
     }
 
     .slider {
         width: 100%;
-        order: 1;
     }
 
     .wrapper {
@@ -153,7 +151,6 @@
     .textContainer {
         width: 100%;
         padding: 5vw;
-        order: 2;
         gap: 5vh;
         margin-bottom: 5vh;
     }
@@ -163,6 +160,13 @@
         line-height: 1.5rem;
     }
 
+    .orderLeft {
+        order: 2;
+    }
+
+    .orderRight {
+        order: 1;
+    }
 
 }
 

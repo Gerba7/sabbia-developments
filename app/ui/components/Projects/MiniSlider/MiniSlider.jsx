@@ -55,7 +55,7 @@ const MiniSlider = ({items}) => {
             {items.map((item, index) => (
                 <div className={styles.slide} key={index} style={{ transform: `translate(-${slideIndex * 100}%)`}}>
                     <div className={styles.background}>
-                        <Image src={item.img} className={styles.backgroundImg} />
+                        <Image src={item.img} className={styles.backgroundImg} alt='Casas' />
                     </div>
                 </div>
             ))}

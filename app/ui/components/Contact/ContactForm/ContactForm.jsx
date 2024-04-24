@@ -32,28 +32,25 @@ const ContactForm = () => {
       </div>
       <div className={styles.formContainer}>
         <div className={styles.left}>
-            <Image src={Sabbia_Logo} alt='sabbia logo' width={200} height={40} />
+            <Image src={Sabbia_Logo} alt='sabbia logo' width={250} height={50} />
             <h3 className={styles.contactTitle}>Datos de Contacto</h3>
             <div className={styles.iconsContainer}>
                 <div className={styles.icon}>
                     <FmdGoodOutlinedIcon style={{color: '#55504d'}}/>
-                    <p className={styles.iconText}>Gdor. I. Arias 2671</p>
+                    <p className={styles.iconText}>Gdor. I. Arias 2671, Castelar, Bs.As. - Arg.</p>
                 </div>
                 <div className={styles.icon}>
                     <LocalPhoneOutlinedIcon style={{color: '#55504d'}} />
-                    <p className={styles.iconText}>+54 11 4624 0487</p>
+                    <p className={styles.iconText}>+54 9 11 4409 0600<br/>+54 9 11 5996 6552</p>
                 </div>
                 <div className={styles.icon}>
                     <AlternateEmailOutlinedIcon style={{color: '#55504d'}} />
-                    <p className={styles.iconText}>contacto@sabbia.com.ar</p>
+                    <p className={styles.iconText}>info@sabbiavolumi.ar</p>
                 </div>
             </div>
             <div className={styles.socialContainer}>
                 <div className={`${styles.socialIcon} ${styles.whatsapp}`}>
                     <WhatsAppIcon />
-                </div>
-                <div className={`${styles.socialIcon} ${styles.facebook}`}>
-                    <FacebookIcon />
                 </div>
                 <div className={`${styles.socialIcon} ${styles.instagram}`}>
                     <InstagramIcon />
