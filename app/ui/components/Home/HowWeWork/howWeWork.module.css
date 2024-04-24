@@ -2,7 +2,8 @@
     height: 110vh;
     display: flex;
     flex-direction: column;
-    background-color: var(--bgDark);
+    background: rgb(95,92,88);
+    background: linear-gradient(90deg, rgba(95,92,88,1) 0%, rgba(130,127,124,1) 34%, rgba(95,92,88,1) 100%);
     color: #fff;
 }
 

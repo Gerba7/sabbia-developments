@@ -1,0 +1,45 @@
+.wrapper {
+    height: 60vh;
+    margin: 10vh 10vw 10vh 10vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.serviceContainer {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    gap: 2vh;
+    padding: 50px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.hr {
+    width: 20%;
+    transition: width .5;
+    color: var(--bgBrand);
+}
+
+.description {
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--bgBrand);
+    text-align: justify;
+}
+
+.serviceContainer:hover {
+    background: rgba(176, 176, 176, 0.1);
+    background: linear-gradient(90deg, rgba(95,92,88,.1) 0%, rgba(130,127,124,.1) 34%, rgba(95,92,88,.1) 100%);
+}
+
+.serviceContainer:hover hr {
+    transition: width 0.5s ease;
+    width: 100%;
+  }
