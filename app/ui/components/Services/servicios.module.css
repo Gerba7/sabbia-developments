@@ -1,5 +1,5 @@
 .wrapper {
-    height: 60vh;
+    height: 100%;
     margin: 10vh 10vw 10vh 10vw;
     display: flex;
     flex-direction: row;
@@ -42,4 +42,36 @@
 .serviceContainer:hover hr {
     transition: width 0.5s ease;
     width: 100%;
-  }
+}
+
+
+@media (max-width: 600px) {
+
+    .wrapper {
+        height: 100%;
+        flex-direction: column;
+        margin: 10vh 0vw 10vh 0vw;
+        align-items: center;
+    }
+
+    .serviceContainer {
+        width: 90vw;
+        gap: 2vh;
+        padding: 50px;
+    }
+
+}
+
+
+@media (max-height: 700px) and (min-width: 1000px) {
+
+
+    .wrapper {
+        margin: 15vh 0vw 15vh 0vw;
+    }
+
+    .serviceContainer {
+        width: 30vw;
+    }
+
+}
