@@ -34,9 +34,7 @@
 
 .slider {
     width: 35%;
-    height: 0vh;
-    transition: height .5s ease-in;
-    will-change: height;
+    height: 45vh;
 }
 
 .visible {
