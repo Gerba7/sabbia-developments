@@ -2,7 +2,7 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
     background-color: var(--text);
     color: var(--textBright);
     /* background: rgb(95,92,88);
@@ -35,7 +35,7 @@
 
 .description {
     flex: 1;
-    padding: 0 10vw;
+    padding: 0 5vw;
     line-height: 36px;
     display: flex;
 }
@@ -48,7 +48,7 @@
 @media (max-height: 700px) and (min-width: 1000px) {
 
     .container {
-        height: 100vh;
+        height: 90vh;
     }
 
 }

@@ -5,7 +5,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 5vh;
+    gap: 7vh;
     color: var(--textBright);
     /* background-attachment: fixed;
     background-position: center;
@@ -42,7 +42,7 @@
 .description {
     width: 35vw;
     font-size: 14px;
-    line-height: 40px;
+    line-height: 24px;
     text-align: center;
     z-index: 5;
 }
@@ -72,11 +72,12 @@
 @media (max-height: 700px) and (min-width: 1000px) {
 
     .container {
-        height: 65vh;
+        height: 70vh;
+        gap: 7vh;
     }
 
     .description {
-        width: 50vw;
+        width: 60vw;
     }
 
 }

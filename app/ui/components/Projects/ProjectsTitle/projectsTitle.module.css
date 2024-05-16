@@ -1,10 +1,10 @@
 .textContainer {
-    width: 35%;
+    width: 1204px;
     height: 40vh;
     z-index: 5;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
     
 }
@@ -104,6 +104,10 @@
     .paragraph {
         font-size: 16px;
         line-height: 1.5rem;
+    }
+
+    .textContainer {
+        width: 1054px;
     }
     
 

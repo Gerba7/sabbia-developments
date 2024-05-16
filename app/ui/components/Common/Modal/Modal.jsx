@@ -23,7 +23,7 @@ export default function BasicModal({content, project}) {
 
   return (
      <>
-      <div onClick={handleOpen}>{content}</div>
+      <div onClick={handleOpen} style={{width: '100%'}}>{content}</div>
       <Modal
         open={open}
         onClose={handleClose}

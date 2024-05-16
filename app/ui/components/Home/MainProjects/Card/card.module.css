@@ -32,7 +32,7 @@
 
 .descriptionContainer {
     position: relative;
-    width: 100%;
+    width: 100% !important;
     background-color: #222836c2;
     height: 100%;
     bottom: 0;
