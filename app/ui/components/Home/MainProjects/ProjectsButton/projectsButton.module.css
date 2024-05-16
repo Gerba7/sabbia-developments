@@ -1,32 +1,30 @@
 .button {
-    background-color: transparent;
+    position: relative;
+    display: inline-block;
     padding: 15px;
     font-size: 12px;
     font-weight: 400;
     color: var(--text);
     text-decoration: none;
-    position: relative; 
-    display: flex;
-    gap: 2px;
-    border: 1.5px solid transparent; /* Add solid border as fallback */
 }
 
 .button::before {
     content: '';
     position: absolute;
-    top: -1.5px; /* Adjust to align with border */
-    left: -1.5px; /* Adjust to align with border */
-    width: calc(100% + 3px); /* Adjust to include border width */
-    height: calc(100% + 3px); /* Adjust to include border width */
-    border: 1px solid transparent; /* Ensure compatibility */
-    border-image-slice: 20; /* Adjust slice value */
-    border-width: 1.5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1.5px solid transparent;
+    border-image-slice: 1;
     border-image-source: linear-gradient(90deg, rgba(182, 154, 121, 1) 0%, rgba(232, 196, 145, 1) 50%, rgba(182, 154, 121, 1) 100%);
     z-index: -1;
 }
 
+.button:hover::before {
+    background: linear-gradient(90deg, rgba(182, 154, 121, 0.3) 0%, rgba(232, 196, 145, 0.3) 50%, rgba(182, 154, 121, 0.3) 100%);
+}
+
 .button:hover {
-    background: rgb(182,154,121);
-    background: linear-gradient(90deg, rgba(182,154,121,.3) 0%, rgba(255,216,162,.3) 50%, rgba(182,154,121,.3) 100%);
-    border-color: transparent; /* Ensure border color matches background */
+    background-color: rgba(182, 154, 121, 0.3); /* Adjust opacity as needed */
 }

@@ -148,6 +148,11 @@
         flex-direction: column;
     }
 
+    .buttonContainer {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 
