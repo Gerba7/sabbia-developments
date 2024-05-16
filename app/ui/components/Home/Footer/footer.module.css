@@ -52,6 +52,10 @@
     gap: 1vw;
 }
 
+.marginLeft {
+    margin-left: 15px;
+}
+
 .iconText {
     line-height: 25px;
 }
@@ -95,7 +99,11 @@
 
     .left {
         flex-direction: column;
-        gap: 5vh;
+        gap: 10vh;
+    }
+
+    .iconsContainer {
+        margin-right: 20px;
     }
 
 }

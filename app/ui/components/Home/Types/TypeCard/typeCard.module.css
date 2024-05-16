@@ -96,4 +96,12 @@
 
 }
 
+
+@media (max-width: 600px) {
+
+    .description {
+        width: 85%;
+    }
+    
+}
   

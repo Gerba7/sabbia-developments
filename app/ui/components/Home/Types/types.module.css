@@ -55,6 +55,11 @@
         flex: 1;
     }
 
+    .title {
+        font-size: 44px;
+        font-weight: 700;
+    }
+
     .top {
         flex-direction: column;
     }

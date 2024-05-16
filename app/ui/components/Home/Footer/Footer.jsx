@@ -42,7 +42,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.iconsContainer}>
-                <div className={styles.icon} style={{marginLeft: '15px'}}>
+                <div className={`${styles.icon} ${styles.marginLeft}`} >
                     <GradientIcon icon={<FmdGoodOutlinedIcon sx={{ fill: "url(#linearColors)"}} />} />
                     <p className={styles.iconText}>Gdor. I. Arias 2671,<br/>Castelar, Bs.As. - Arg.</p>
                 </div>
@@ -50,7 +50,7 @@ const Footer = () => {
                     <GradientIcon icon={<LocalPhoneOutlinedIcon sx={{ fill: "url(#linearColors)"}} />} />
                     <p className={styles.iconText}>+54 9 11 4409 0600<br/>+54 9 11 5996 6552</p>
                 </div>
-                <div className={styles.icon} style={{marginLeft: '15px'}}>
+                <div className={`${styles.icon} ${styles.marginLeft}`}>
                     <GradientIcon icon={<AlternateEmailOutlinedIcon sx={{ fill: "url(#linearColors)"}} />} />
                     <p className={styles.iconText}>info@sabbiavolumi.ar</p>
                 </div>

@@ -52,8 +52,6 @@
 
     .container {
         height: 65vh;
-        will-change: transform;
-        background-attachment:unset;
     }
 
     .back {
@@ -78,6 +76,19 @@
 
     .description {
         width: 60vw;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .title {
+        text-align: center;
+    }
+
+    .description {
+        width: 90vw;
     }
 
 }

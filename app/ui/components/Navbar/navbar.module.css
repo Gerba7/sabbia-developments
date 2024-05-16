@@ -185,4 +185,8 @@
         right: 100vw;
     }
 
+    .dropdownContent {
+        left: -60%;
+    }
+
 }
