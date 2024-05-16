@@ -99,3 +99,12 @@
     }
 
 }
+
+
+@media (max-height: 700px) and (min-width: 1000px) {
+
+    .container {
+        padding: 20vh 5vw;
+    }
+
+}

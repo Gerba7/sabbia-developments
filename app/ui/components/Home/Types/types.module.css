@@ -16,13 +16,16 @@
 }
 
 .title {
-    font-size: 34px;
+    font-size: 52px;
+    font-weight: 700;
 }
 
 .hr {
-    width: 50px;
+    width: 150px;
     background-color: var(--bgBrand);
-    height: 7px;
+    height: 2px;
+    background: rgb(182,154,121);
+    background: linear-gradient(90deg, rgba(182,154,121,1) 0%, rgba(255,216,162,1) 50%, rgba(182,154,121,1) 100%);
 }
 
 .top {

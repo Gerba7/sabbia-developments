@@ -1,14 +1,14 @@
 import Card from './Card/Card';
 import ProjectsButton from './ProjectsButton/ProjectsButton';
 import styles from './mainProjects.module.css';
-import Project1 from '../../../../../public/images/MONINA.jpg';
-import Project2 from '../../../../../public/images/JOCHY5.jpg';
-import Project3 from '../../../../../public/images/SN6Alvear.jpg';
-import Project4 from '../../../../../public/images/VIVRELELOIR.jpg';
-import Project5 from '../../../../../public/images/JOCHY1.jpg';
-import Project6 from '../../../../../public/images/JOCHY2.jpg';
-import Project7 from '../../../../../public/images/JOCHY3.jpg';
-import Project8 from '../../../../../public/images/PERLA1.jpg';
+import Project1 from '../../../../../public/images/MONINA/MONINA.jpg';
+import Project2 from '../../../../../public/images/JOCHY6/JOCHY6.jpg';
+import Project3 from '../../../../../public/images/SN6-ALVEAR/SN6Alvear.jpg';
+import Project4 from '../../../../../public/images/VIVRELELOIR/VIVRELELOIR.jpg';
+import Project5 from '../../../../../public/images/JOCHY1/JOCHY1.jpg';
+import Project6 from '../../../../../public/images/JOCHY2/JOCHY2.jpg';
+import Project7 from '../../../../../public/images/JOCHY3/JOCHY3.jpg';
+import Project8 from '../../../../../public/images/PERLA/PERLA1.jpg';
 
 
 

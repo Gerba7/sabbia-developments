@@ -20,7 +20,7 @@
     height: 20px;
     padding: 15px;
     border: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
     background-color: transparent;
     color: var(--text);
     font-size: 14px;
@@ -28,7 +28,9 @@
 
 .input:focus {
     outline: none;
-    border-bottom: 2px solid var(--bgBrand);
+    border-bottom: 2px solid var(--bgBrand); /* Keep the solid color for the bottom border */
+    border-image: linear-gradient(90deg, rgba(182,154,121,1) 0%, rgba(255,216,162,1) 50%, rgba(182,154,121,1) 100%);
+    border-image-slice: 1; /* Ensure the border image is applied to the whole border */
     color: var(--text);
 }
 
@@ -45,7 +47,7 @@
 .textarea {
     height: 50px;
     border: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
     background-color: transparent;
     color: var(--text);
     resize: none;
@@ -53,7 +55,9 @@
 
 .textarea:focus {
     outline: none;
-    border-bottom: 2px solid var(--bgBrand);
+    border-bottom: 2px solid var(--bgBrand); /* Keep the solid color for the bottom border */
+    border-image: linear-gradient(90deg, rgba(182,154,121,1) 0%, rgba(255,216,162,1) 50%, rgba(182,154,121,1) 100%);
+    border-image-slice: 1; /* Ensure the border image is applied to the whole border */
     color: var(--text);
 }
 

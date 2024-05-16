@@ -43,7 +43,7 @@ const Form = () => {
         </div>
         <div className={styles.formItem}>
             <label className={styles.label}>Telefono</label>
-            <input className={styles.input} type="number" name='phone' required  />
+            <input className={styles.input} type="number" name='phone' min={0} required  />
         </div>
         <div className={styles.formItem}>
             <label className={styles.label}>Mensaje</label>

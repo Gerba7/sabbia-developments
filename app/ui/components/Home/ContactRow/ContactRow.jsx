@@ -12,7 +12,7 @@ const ContactRow = () => {
       <div className={styles.container} > 
         <div className={styles.back}>
         </div>
-          <h3 className={styles.title}>Contactate con nosotros</h3>
+          <h3 className={styles.title}>CONTACTATE CON NOSOTROS</h3>
           <div className={styles.description}>Descubrí cómo podemos hacer realidad tu proyecto. Estamos listos para escucharte y responder a todas tus preguntas. ¡Contactános ahora y dejános ser parte de tu visión!</div>
           <ContactButton  />
       </div>

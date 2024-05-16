@@ -9,7 +9,6 @@
 }
 
 .scrollOffset {
-    background-color: yellow;
     position: absolute;
     top: -80px;
     height: 80px;
@@ -43,7 +42,7 @@
 }
 
 .title {
-    font-size: 60px;
+    font-size: 52px;
     font-weight: 700;
 }
 
@@ -56,7 +55,7 @@
 }
 
 .subtitle {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     justify-self: flex-end;
     color: var(--bgBrand);
@@ -64,7 +63,8 @@
 
 .hr {
     height: 2px;
-    background-color: var(--bgBrand);   
+    background: rgb(182,154,121);
+    background: linear-gradient(90deg, rgba(182,154,121,1) 0%, rgba(255,216,162,1) 50%, rgba(182,154,121,1) 100%);
     width: 100%; 
 }
 

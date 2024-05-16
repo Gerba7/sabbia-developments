@@ -11,20 +11,20 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 const MiniSlider = ({items}) => {
 
     const [slideIndex, setSlideIndex] = useState(0);
-
+    
     const handleClick = (direction) => {
 
         if(direction === "left") {
-            setSlideIndex(slideIndex > 0 ? slideIndex - 1 : items.length - 1)
+            setSlideIndex(slideIndex > 0 ? slideIndex - 1 : items?.img?.length - 1)
         } else {
-            setSlideIndex(slideIndex < items.length - 1 ? slideIndex + 1 : 0)
+            setSlideIndex(slideIndex < items?.img?.length - 1 ? slideIndex + 1 : 0)
         }
 
     }
 
     const carouselScroll = () => {
 
-        if (slideIndex === items.length - 1) {
+        if (slideIndex === items?.img?.length - 1) {
             return setSlideIndex(0)
         }
         
@@ -43,19 +43,16 @@ const MiniSlider = ({items}) => {
 
 
 
-
-
-
   return (
     <div className={styles.container}>
         <div className={`${styles.arrow} ${styles.arrowLeft}`} onClick={() => handleClick("left")}>
             <KeyboardArrowLeftIcon style={{color: '#f5f5f5'}} />
         </div>
         <div className={styles.wrapper}>
-            {items.map((item, index) => (
-                <div className={styles.slide} key={index} style={{ transform: `translate(-${slideIndex * 100}%)`}}>
+            {items?.img?.map((item, idx) => (
+                <div className={styles.slide} key={idx} style={{ transform: `translate(-${slideIndex * 100}%)`}}>
                     <div className={styles.background}>
-                        <Image src={item.img} className={styles.backgroundImg} alt='Casas' />
+                        <Image src={item} className={styles.backgroundImg} alt='Casas' />
                     </div>
                 </div>
             ))}
@@ -64,7 +61,7 @@ const MiniSlider = ({items}) => {
             <KeyboardArrowRightIcon style={{color: '#f5f5f5'}} />
         </div>
         <div className={styles.dotsContainer}>
-            {items.map((_, idx) => (
+            {items?.img?.map((_, idx) => (
                 <div key={idx} className={`${styles.dot} ${slideIndex === idx && styles.dotActive}`} onClick={() => setSlideIndex(idx)} />
             ))}
         </div>

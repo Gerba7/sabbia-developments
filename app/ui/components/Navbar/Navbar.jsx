@@ -18,6 +18,7 @@ const Navbar = () => {
 
     const [navHeight, setNavHeight] = useState(false);
     const [displayMenu, setDisplayMenu] = useState(true);
+    const [dropdown, setDropdown] = useState(false);
 
     const pathname = usePathname();
     
@@ -49,6 +50,19 @@ const Navbar = () => {
       setDisplayMenu(!displayMenu)
     }
 
+    const toggleDropdow = (e) => {
+      e.preventDefault()
+      setDropdown(!dropdown)
+    }
+
+
+    const scrollToSection = (sectionId) => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
 
     return (
       <div className={`${styles.container} ${navHeight ? styles.containerHeight : ''}`}>
@@ -66,10 +80,18 @@ const Navbar = () => {
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
-              <Link href='/empresa' style={{width: 'max-content'}}>Empresa</Link>
-              <Link href='/servicios'>Servicios</Link>
-              <Link href='/proyectos'>Proyectos</Link>
-              <Link href='/contacto'>Contacto</Link>
+              {/* <Link className={styles.link} href='/empresa' style={{width: 'max-content'}}>Empresa</Link> */}
+              <div className={styles.link} style={{width: 'max-content'}} onClick={() => scrollToSection("Home")}>Empresa</div>
+              <Link className={styles.link} href='/servicios'>Servicios</Link>
+              <div className={`${styles.link} ${styles.dropdown}`}>
+                Proyectos
+                <span className={styles.dropdownContent}>
+                  <div className={styles.transparent}></div>
+                  <Link className={styles.dropdownLink} href='/proyectos/emprendimientos'>Emprendimientos</Link>
+                  <Link className={styles.dropdownLink} href='/proyectos/viviendas'>Viviendas</Link>
+                </span>
+              </div>
+              <Link className={styles.link} href='/contacto'>Contacto</Link>
           </div>
         </div>
       </div>

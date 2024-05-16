@@ -34,7 +34,7 @@
 }
 
 .title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 28px;
     z-index: 5;
 }
@@ -64,6 +64,19 @@
         width: 80vw;
         line-height: 20px;
         text-align: center
+    }
+
+}
+
+
+@media (max-height: 700px) and (min-width: 1000px) {
+
+    .container {
+        height: 65vh;
+    }
+
+    .description {
+        width: 50vw;
     }
 
 }

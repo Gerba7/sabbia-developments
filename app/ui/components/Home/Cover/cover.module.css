@@ -91,9 +91,7 @@
     cursor: pointer;
     z-index: 10;
     animation: bounce 2s infinite;
-    color: #fff;
   }
-
 
   @media (max-width: 600px) {
 
