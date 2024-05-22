@@ -67,11 +67,17 @@
 
 
     .wrapper {
-        margin: 15vh 0vw 15vh 0vw;
+        margin: 15vh 5vw 15vh 5vw;
+        gap: 1vw;
     }
 
     .serviceContainer {
         width: 30vw;
+        padding: 25px;
+    }
+
+    .description {
+        text-wrap: balance;
     }
 
 }

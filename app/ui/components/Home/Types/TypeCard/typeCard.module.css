@@ -55,6 +55,8 @@
     text-align: center;
     line-height: 25px;
     cursor: default;
+    text-align: center;
+    text-wrap: balance;
 }
 
 .filter {
@@ -100,7 +102,7 @@
 @media (max-width: 600px) {
 
     .description {
-        width: 85%;
+        width: 75%;
     }
     
 }

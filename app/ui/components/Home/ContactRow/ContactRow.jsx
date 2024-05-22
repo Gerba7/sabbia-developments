@@ -13,7 +13,7 @@ const ContactRow = () => {
         <div className={styles.back}>
         </div>
           <h3 className={styles.title}>CONTACTATE CON NOSOTROS</h3>
-          <div className={styles.description}>Descubrí cómo podemos hacer realidad tu proyecto.<br/>Estamos listos para escucharte y responder a todas tus preguntas.<br/>¡Contactános ahora y dejános ser parte de tu visión!</div>
+          <div className={styles.description}>Descubrí cómo podemos hacer realidad tu proyecto.<br/>Estamos para escucharte y responder a todas tus preguntas.<br/>¡Contactános ahora y dejános ser parte de tu visión!</div>
           <ContactButton  />
       </div>
   )

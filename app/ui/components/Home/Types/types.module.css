@@ -2,7 +2,8 @@
     height: 120vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 15vh;
+    padding-bottom: 5vh;
+    background-color: var(--text);
 }
 
 .titleContainer {
@@ -18,6 +19,7 @@
 .title {
     font-size: 52px;
     font-weight: 700;
+    color: var(--textBright);
 }
 
 .hr {

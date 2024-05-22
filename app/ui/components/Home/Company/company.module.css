@@ -1,43 +1,41 @@
 .container {
-    height: 70vh;
+    height: 100%;
+    margin: 10vh 10vw 10vh 10vw;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 5vh;
-    background-color: var(--text);
-    color: var(--textBright);
-    /* background: rgb(95,92,88);
-    background: linear-gradient(90deg, rgba(95,92,88,1) 0%, rgba(130,127,124,1) 34%, rgba(95,92,88,1) 100%); */
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
 }
 
-.titleContainer {
-    flex: 1;
-    padding: 0 5vw;
+.serviceContainer {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
     flex-direction: column;
-    gap: 1vh;
+    width: 100%;
+    gap: 2vh;
+    padding: 50px;
 }
 
 .title {
-    font-size: 52px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text);
 }
 
 .hr {
-    width: 150px;
-    background-color: var(--bgBrand);
-    height: 2px;
-    margin-left: 2px;
-    background: rgb(182,154,121);
-    background: linear-gradient(90deg, rgba(182,154,121,1) 0%, rgba(255,216,162,1) 50%, rgba(182,154,121,1) 100%);
+    width: 20%;
+    transition: width .5;
+    color: var(--bgBrand);
 }
 
 .description {
     flex: 1;
-    padding: 0 5vw;
-    line-height: 36px;
+    font-size: 14px;
+    line-height: 25px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-wrap: balance;
 }
 
 .paragraph {
@@ -45,11 +43,18 @@
     font-weight: 300;
 }
 
+.serviceContainer:hover hr {
+    transition: width 0.5s ease;
+    width: 50%;
+    /* background: rgb(182,154,121);
+    background: linear-gradient(90deg, rgba(182,154,121,1) 0%, rgba(255,216,162,1) 50%, rgba(182,154,121,1) 100%); */
+}
+
 
 @media (max-height: 700px) and (min-width: 1000px) {
 
     .container {
-        height: 90vh;
+        margin: 15vh 3vw 15vh 3vw;
     }
 
 }
@@ -58,18 +63,16 @@
 @media (max-width: 600px) {
 
     .container {
-        height: 90vh;
+        height: 100vh;
         padding-bottom: 10vh;
-    }
-
-    .title {
-        font-size: 44px;
+        margin: 5vh 5vw 5vh 5vw;
     }
 
     .description {
-        line-height: 32px;
+        line-height: 25px;
         font-size: 14px;
         font-weight: 300;
+        text-align: justify;
     }
 
     .paragraph {

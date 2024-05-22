@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Cover />
       <MainProjects />
-      <Company />
+      {/* <Company /> */}
       <Types />
       <ContactRow />
       <WhatsappContact />

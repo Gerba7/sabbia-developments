@@ -1,26 +1,20 @@
 import Card from './Card/Card';
 import ProjectsButton from './ProjectsButton/ProjectsButton';
 import styles from './mainProjects.module.css';
-import Project1 from '../../../../../public/images/MONINA/MONINA.jpg';
-import Project2 from '../../../../../public/images/JOCHY6/JOCHY6.jpg';
-import Project3 from '../../../../../public/images/SN6-ALVEAR/SN6Alvear.jpg';
-import Project4 from '../../../../../public/images/VIVRELELOIR/VIVRELELOIR.jpg';
-import Project5 from '../../../../../public/images/JOCHY1/JOCHY1.jpg';
-import Project6 from '../../../../../public/images/JOCHY2/JOCHY2.jpg';
-import Project7 from '../../../../../public/images/JOCHY3/JOCHY3.jpg';
-import Project8 from '../../../../../public/images/PERLA/PERLA1.jpg';
 import SN6Alvear from '../../../../../public/images/SN6-ALVEAR/SN6Alvear.jpg';
 import SN6Alvear2 from '../../../../../public/images/SN6-ALVEAR/SN6Alvear-2.jpg';
 import SN6Alvear3 from '../../../../../public/images/SN6-ALVEAR/SN6Alvear-3.jpg';
-import JOCHY6 from '../../../../../public/images/JOCHY6/JOCHY6.jpg';
-import JOCHY62 from '../../../../../public/images/JOCHY6/JOCHY62.jpg';
-import JOCHY63 from '../../../../../public/images/JOCHY6/JOCHY63.jpg';
+import JOCHY6 from '../../../../../public/images/JOCHY6/JOCHY6.jpeg';
+import JOCHY62 from '../../../../../public/images/JOCHY6/JOCHY62.jpeg';
+import JOCHY63 from '../../../../../public/images/JOCHY6/JOCHY63.jpeg';
 import JOCHY64 from '../../../../../public/images/JOCHY6/JOCHY64.jpg';
 import JOCHY65 from '../../../../../public/images/JOCHY6/JOCHY65.jpg';
 import JOCHY66 from '../../../../../public/images/JOCHY6/JOCHY66.jpg';
 import JOCHY67 from '../../../../../public/images/JOCHY6/JOCHY67.jpg';
 import JOCHY68 from '../../../../../public/images/JOCHY6/JOCHY68.jpg';
 import JOCHY69 from '../../../../../public/images/JOCHY6/JOCHY69.jpg';
+import JOCHY610 from '../../../../../public/images/JOCHY6/JOCHY610.jpeg';
+import JOCHY611 from '../../../../../public/images/JOCHY6/JOCHY611.jpeg';
 import MONINA from '../../../../../public/images/MONINA/MONINA.jpg';
 import MONINA2 from '../../../../../public/images/MONINA/MONINA2.jpg';
 import MONINA3 from '../../../../../public/images/MONINA/MONINA3.jpg';
@@ -46,6 +40,8 @@ import JOCHY2D from '../../../../../public/images/JOCHY2/JOCHY2-4.jpg';
 import JOCHY2E from '../../../../../public/images/JOCHY2/JOCHY2-5.jpg';
 import JOCHY2F from '../../../../../public/images/JOCHY2/JOCHY2-6.jpg';
 import JOCHY2G from '../../../../../public/images/JOCHY2/JOCHY2-7.jpg';
+import JOCHY2H from '../../../../../public/images/JOCHY2/JOCHY2-8.jpg';
+import JOCHY2I from '../../../../../public/images/JOCHY2/JOCHY2-9.jpeg';
 import JOCHY3 from '../../../../../public/images/JOCHY3/JOCHY3.jpg';
 import JOCHY32 from '../../../../../public/images/JOCHY3/JOCHY32.jpg';
 import JOCHY33 from '../../../../../public/images/JOCHY3/JOCHY33.jpg';
@@ -55,10 +51,11 @@ import JOCHY36 from '../../../../../public/images/JOCHY3/JOCHY36.jpg';
 import JOCHY37 from '../../../../../public/images/JOCHY3/JOCHY37.jpg';
 import JOCHY38 from '../../../../../public/images/JOCHY3/JOCHY38.jpg';
 import JOCHY39 from '../../../../../public/images/JOCHY3/JOCHY39.jpg';
-import PERLA1 from '../../../../../public/images/PERLA/PERLA1.jpg';
-import PERLA1B from '../../../../../public/images/PERLA/PERLA1-2.jpg';
+import PERLA1 from '../../../../../public/images/PERLA/PERLA1.jpeg';
+import PERLA1B from '../../../../../public/images/PERLA/PERLA1-2.jpeg';
 import PERLA1C from '../../../../../public/images/PERLA/PERLA1-3.jpg';
 import PERLA1D from '../../../../../public/images/PERLA/PERLA1-4.jpg';
+import PERLA1E from '../../../../../public/images/PERLA/PERLA1-5.jpeg';
 
 
 
@@ -74,7 +71,7 @@ const projects = [
   {
     id: 1,
     title: 'JOCHY 6',
-    img: [JOCHY6, JOCHY62, JOCHY63, JOCHY64, JOCHY65, JOCHY66, JOCHY67, JOCHY68, JOCHY69],
+    img: [JOCHY6, JOCHY62, JOCHY63, JOCHY64, JOCHY65, JOCHY66, JOCHY67, JOCHY68, JOCHY69, JOCHY610, JOCHY611],
     subtitle: 'MONTES DE OCA N° 2482, Castelar',
     text: 'Departamentos de 2, 3 y 4 Ambientes. Aberturas de aluminio con doble vidrio. Calefacción individual por piso radiante. Preinstalación de A/A. Agua caliente central con termotanques industriales a gas. Unidades al Frente, con orientación Norte. Terrazas Privadas, con Parrilla. Cocheras Fijas, cubiertas y descubiertas. Bauleras.',
     left: true
@@ -106,7 +103,7 @@ const projects = [
   {
     id: 5,
     title: 'JOCHY 2',
-    img: [JOCHY2, JOCHY2B, JOCHY2C, JOCHY2D, JOCHY2E, JOCHY2F, JOCHY2G],
+    img: [JOCHY2, JOCHY2B, JOCHY2C, JOCHY2D, JOCHY2E, JOCHY2F, JOCHY2G, JOCHY2H, JOCHY2I],
     subtitle: 'ARREDONDO 2350, Castelar, Bs. As.',
     text: '- Fecha Inicio Obra (aprox.): 2.008 \n - Avance de Obra: Terminado \n - Superficie: 3.960 m² (aprox.)', 
     left: true
@@ -122,7 +119,7 @@ const projects = [
   {
     id: 10,
     title: 'PERLA 1',
-    img: [PERLA1, PERLA1B, PERLA1C, PERLA1D],
+    img: [PERLA1, PERLA1B, PERLA1C, PERLA1D, PERLA1E],
     subtitle: 'RODRIGUEZ PEÑA 932, Castelar, Bs. As.',
     text: '- Fecha Inicio Obra (aprox.): 2.021 \n - Avance de Obra: Terminado \n - Superficie: 780 m² (aprox.)', 
     left: false
