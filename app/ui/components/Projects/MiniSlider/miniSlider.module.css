@@ -168,3 +168,12 @@
     }
 
 }
+
+
+@media (min-width: 601px) and (max-width: 999px) {
+
+    .slide {
+        width: 80vw;
+    }
+
+}

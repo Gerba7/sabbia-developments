@@ -81,3 +81,20 @@
     }
 
 }
+
+
+@media (min-width: 601px) and (max-width: 999px) {
+
+    .wrapper {
+        height: 100%;
+        flex-direction: column;
+        margin: 10vh 0vw 10vh 0vw;
+        align-items: center;
+    }
+
+    .serviceContainer {
+        width: 60vw;
+        padding: 25px;
+    }
+
+}

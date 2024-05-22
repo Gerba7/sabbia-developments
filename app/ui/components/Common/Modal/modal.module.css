@@ -130,4 +130,17 @@
     }
 
 }
+
+
+
+@media (min-width: 601px) and (max-width: 999px) {
+
+    .box {
+        width: 95vw;
+        height: 80vh;
+    }
+
+}
+
+
   

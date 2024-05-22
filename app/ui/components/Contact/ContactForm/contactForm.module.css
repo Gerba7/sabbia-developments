@@ -201,3 +201,11 @@
     }
 
 }
+
+
+@media (min-width: 601px) and (max-width: 999px) {
+    
+    .formContainer {
+        padding: 0vh 5vw;
+    }
+}
