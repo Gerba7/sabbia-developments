@@ -69,7 +69,7 @@ const ProjectsHouses = () => {
 
   return (
     <div style={{overflowX: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-      <PageCover2 img={ProjectsImg} title={'PROYECTOS'} />
+      <PageCover2 title={'PROYECTOS'} />
       <ProjectsTitle title={'VIVIENDAS'} subtitle={'UNIFAMILIARES'} />
       <div className={styles.gridContainer}>
         {projects.map((project, index) => {

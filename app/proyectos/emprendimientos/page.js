@@ -112,7 +112,6 @@ import PAVILON from '../../../public/images/PAVILON/PAVILON.jpg';
 import PAVILON2 from '../../../public/images/PAVILON/PAVILON2.jpg';
 import PAVILON3 from '../../../public/images/PAVILON/PAVILON3.jpg';
 import PAVILON4 from '../../../public/images/PAVILON/PAVILON4.jpg';
-import ProjectsImg from '../../../public/images/JOCHY6/JOCHY6.jpeg';
 import ProjectsTitle from '@/app/ui/components/Projects/ProjectsTitle/ProjectsTitle';
 import PageCover2 from '@/app/ui/components/Common/PageCover/PageCover2';
 import ModalProject from '@/app/ui/components/Projects/ModalProject/ModalProject';
@@ -282,7 +281,7 @@ const Projects = () => {
 
   return (
     <div style={{overflowX: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-      <PageCover2 img={ProjectsImg} title={'PROYECTOS'} />
+      <PageCover2 title={'PROYECTOS'} />
       <ProjectsTitle title={'EDIFICIOS'} subtitle={'Y CORREDORES'} />
       <div className={styles.gridContainer}>
         {projects.map((project, index) => {
