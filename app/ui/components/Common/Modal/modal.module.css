@@ -109,8 +109,8 @@
 @media (max-height: 700px) and (min-width: 1000px) {
 
     .box {
-        width: 65vw;
-        height: 70vh;
+        width: 70vw;
+        height: 80vh;
     }
 
     .title {
