@@ -52,6 +52,7 @@
     gap: 1vw;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .subtitle {
@@ -59,6 +60,8 @@
     font-weight: 400;
     justify-self: flex-end;
     color: var(--bgBrand);
+    padding-right: 2px;
+    min-width: max-content;
 }
 
 .hr {
@@ -66,6 +69,7 @@
     background: rgb(182,154,121);
     background: linear-gradient(90deg, rgba(182,154,121,1) 0%, rgba(255,216,162,1) 50%, rgba(182,154,121,1) 100%);
     width: 100%; 
+    margin-left: 2px;
 }
 
 .buttonContainer {

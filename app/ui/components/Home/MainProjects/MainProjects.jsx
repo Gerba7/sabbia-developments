@@ -65,7 +65,7 @@ const projects = [
     title: 'SN6 – ALVEAR',
     img: [SN6Alvear, SN6Alvear2, SN6Alvear3],
     subtitle: 'PAULINO ROJAS N° 499, esq. Alvear, Ituzaingó',
-    text: 'Diseño, calidad de materiales, detalles de terminación y servicios comunes. Departamentos de 2, 3, 4 y 5 ambientes, funcionales y luminosos, creados con diseño de vanguardia.Terrazas Privadas y Cocheras en Subsuelo. SUM + Coworking + Gym + Piscina + Parque',
+    text: 'Diseño, calidad de materiales, detalles de terminación y servicios comunes. Departamentos de 2, 3, 4 y 5 ambientes, funcionales y luminosos, creados con diseño de vanguardia.\nTerrazas Privadas y Cocheras en Subsuelo. \nSUM + Coworking + Gym + Piscina + Parque.',
     left: false
   },
   {
@@ -97,7 +97,7 @@ const projects = [
     title: 'JOCHY 1',
     img: [JOCHY1, JOCHY12, JOCHY13],
     subtitle: 'SAN PEDRO 861, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.006 \n - Avance de Obra: Terminado \n - Superficie: 1.420 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.006. \n - Avance de Obra: Terminado. \n - Superficie: 1.420 m² (aprox.).', 
     left: false
   },
   {
@@ -105,7 +105,7 @@ const projects = [
     title: 'JOCHY 2',
     img: [JOCHY2, JOCHY2B, JOCHY2C, JOCHY2D, JOCHY2E, JOCHY2F, JOCHY2G, JOCHY2H, JOCHY2I],
     subtitle: 'ARREDONDO 2350, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.008 \n - Avance de Obra: Terminado \n - Superficie: 3.960 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.008. \n - Avance de Obra: Terminado. \n - Superficie: 3.960 m² (aprox.).', 
     left: true
   },
   {
@@ -113,7 +113,7 @@ const projects = [
     title: 'JOCHY 3',
     img: [JOCHY3, JOCHY32, JOCHY33, JOCHY34, JOCHY35, JOCHY36, JOCHY37, JOCHY38, JOCHY39],
     subtitle: 'RODRIGUEZ PEÑA 993, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.010 \n - Avance de Obra: Terminado \n - Superficie: 1.970 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.010. \n - Avance de Obra: Terminado. \n - Superficie: 1.970 m² (aprox.).', 
     left: false
   },
   {
@@ -121,7 +121,7 @@ const projects = [
     title: 'PERLA 1',
     img: [PERLA1, PERLA1B, PERLA1C, PERLA1D, PERLA1E],
     subtitle: 'RODRIGUEZ PEÑA 932, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.021 \n - Avance de Obra: Terminado \n - Superficie: 780 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.021. \n - Avance de Obra: Terminado. \n - Superficie: 780 m² (aprox.).', 
     left: false
   }
 ] 

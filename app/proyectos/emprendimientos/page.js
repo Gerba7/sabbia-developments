@@ -122,8 +122,8 @@ const projects = [
     id: 0,
     title: 'SN6 – ALVEAR',
     img: [SN6Alvear, SN6Alvear2, SN6Alvear3],
-    subtitle: 'PAULINO ROJAS N° 499, esq. Alvear, Ituzaingó',
-    text: 'Diseño, calidad de materiales, detalles de terminación y servicios comunes. Departamentos de 2, 3, 4 y 5 ambientes, funcionales y luminosos, creados con diseño de vanguardia.Terrazas Privadas y Cocheras en Subsuelo. SUM + Coworking + Gym + Piscina + Parque',
+    subtitle: 'Paulino Rojas N° 499, esq. Alvear, Ituzaingó',
+    text: 'Diseño, calidad de materiales, detalles de terminación y servicios comunes. Departamentos de 2, 3, 4 y 5 ambientes, funcionales y luminosos, creados con diseño de vanguardia.\nTerrazas Privadas y Cocheras en Subsuelo. \nSUM + Coworking + Gym + Piscina + Parque.',
     left: false
   },
   {
@@ -155,7 +155,7 @@ const projects = [
     title: 'JOCHY 1',
     img: [JOCHY1, JOCHY12, JOCHY13],
     subtitle: 'SAN PEDRO 861, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.006 \n - Avance de Obra: Terminado \n - Superficie: 1.420 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.006. \n - Avance de Obra: Terminado. \n - Superficie: 1.420 m² (aprox.).', 
     left: false
   },
   {
@@ -163,7 +163,7 @@ const projects = [
     title: 'JOCHY 2',
     img: [JOCHY2, JOCHY2B, JOCHY2C, JOCHY2D, JOCHY2E, JOCHY2F, JOCHY2G, JOCHY2H, JOCHY2I],
     subtitle: 'ARREDONDO 2350, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.008 \n - Avance de Obra: Terminado \n - Superficie: 3.960 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.008. \n - Avance de Obra: Terminado. \n - Superficie: 3.960 m² (aprox.).', 
     left: true
   },
   {
@@ -171,7 +171,7 @@ const projects = [
     title: 'JOCHY 3',
     img: [JOCHY3, JOCHY32, JOCHY33, JOCHY34, JOCHY35, JOCHY36, JOCHY37, JOCHY38, JOCHY39],
     subtitle: 'RODRIGUEZ PEÑA 993, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.010 \n - Avance de Obra: Terminado \n - Superficie: 1.970 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.010. \n - Avance de Obra: Terminado. \n - Superficie: 1.970 m² (aprox.).', 
     left: false
   },
   {
@@ -179,7 +179,7 @@ const projects = [
     title: 'JOCHY 4',
     img: [JOCHY4, JOCHY42, JOCHY43, JOCHY44, JOCHY45, JOCHY46, JOCHY47],
     subtitle: 'GDOR. I. ARIAS 2353, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.012 \n - Avance de Obra: Terminado \n - Superficie: 2.180 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.012. \n - Avance de Obra: Terminado. \n - Superficie: 2.180 m² (aprox.).', 
     left: true
   },
   {
@@ -187,7 +187,7 @@ const projects = [
     title: 'VINCENZO',
     img: [VINCENZO, VINCENZO2, VINCENZO3, VINCENZO4, VINCENZO5],
     subtitle: 'SAN PEDRO 833, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.015 \n - Avance de Obra: Terminado \n - Superficie: 880 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.015. \n - Avance de Obra: Terminado. \n - Superficie: 880 m² (aprox.).', 
     left: false
   },
   {
@@ -195,7 +195,7 @@ const projects = [
     title: 'GIUSEPPINA',
     img: [GIUSEPPINA12, GIUSEPPINA, GIUSEPPINA3, GIUSEPPINA4, GIUSEPPINA5, GIUSEPPINA6, GIUSEPPINA7, GIUSEPPINA8, GIUSEPPINA9],
     subtitle: 'POMPEYA 2426, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.017 \n - Avance de Obra: Terminado \n - Superficie: 900 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.017. \n - Avance de Obra: Terminado. \n - Superficie: 900 m² (aprox.).', 
     left: true
   },
   {
@@ -203,7 +203,7 @@ const projects = [
     title: 'PERLA 1',
     img: [PERLA1, PERLA1B, PERLA1C, PERLA1D, PERLA1E],
     subtitle: 'RODRIGUEZ PEÑA 932, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.021 \n - Avance de Obra: Terminado \n - Superficie: 780 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.021. \n - Avance de Obra: Terminado. \n - Superficie: 780 m² (aprox.).', 
     left: false
   },
   {
@@ -211,7 +211,7 @@ const projects = [
     title: 'PERLA 2',
     img: [PERLA2],
     subtitle: 'MONTES DE OCA 2530, Castelar, Bs. As.',
-    text: '- Fecha Inicio Obra (aprox.): 2.021 \n - Avance de Obra: Terminado \n - Superficie: 780 m² (aprox.)', 
+    text: '- Fecha Inicio Obra (aprox.): 2.021. \n - Avance de Obra: Terminado. \n - Superficie: 780 m² (aprox.).', 
     left: true
   },
   {
@@ -227,7 +227,7 @@ const projects = [
     title: 'EVOLUZIONE 3',
     img: [EVOLUZIONE32, EVOLUZIONE3, EVOLUZIONE33, EVOLUZIONE34, EVOLUZIONE35, EVOLUZIONE36],
     subtitle: 'RODRIGUEZ PEÑA 919, Castelar, Bs. As.',
-    text: 'Monoambientes de 35m2 aproximadamente, edificio apto profesional, a cuatro cuadras de la estación de Castelar lado Norte', 
+    text: 'Monoambientes de 35m2 aproximadamente, edificio apto profesional, a cuatro cuadras de la estación de Castelar lado Norte.', 
     left: true
   },
   {
@@ -235,7 +235,7 @@ const projects = [
     title: 'GIUSEPPINA 2',
     img: [GIUSEPPINA2, GIUSEPPINA22, GIUSEPPINA23, GIUSEPPINA24],
     subtitle: 'SOLER 536, Castelar, Bs. As.',
-    text: 'Edificio de amplios departamentos de dos ambientes para vivir y apto profesional. Equipados con parrilla en sus balcones. Terrazas privadas y cocheras (opcional) cubiertas y descubiertas. Agua caliente central a gas, aberturas de PVC con vidrio doble, pisos de porcelanato, artefactos Ferrum y griferias FV. Entrega: Abril 2023', 
+    text: 'Edificio de amplios departamentos de dos ambientes para vivir y apto profesional. Equipados con parrilla en sus balcones. Terrazas privadas y cocheras (opcional) cubiertas y descubiertas. Agua caliente central a gas, aberturas de PVC con vidrio doble, pisos de porcelanato, artefactos Ferrum y griferias FV. Entrega: Abril 2023.', 
     left: false
   },
   {
@@ -267,7 +267,7 @@ const projects = [
     title: 'CHIUSO',
     img: [CHIUSO],
     subtitle: 'LEANDRO N. ALEM 2521, Castelar, Bs. As.',
-    text: 'Único LOTEO CERRADO conformado por cuatro lotes de terreno de más de 300 m2 cada uno, ubicado a solo ocho cuadras de la Estación de Castelar lado Norte. Acceso vehicular y peatonal al Loteo Residencial Privado. En cada lote de terreno se podrá construir una Vivienda Unifamiliar. EXCELENTE OPORTUNIDAD PARA VIVIR EN TU CASA SOÑADA, MÁS SEGURO Y MÁS', 
+    text: 'Único LOTEO CERRADO conformado por cuatro lotes de terreno de más de 300 m2 cada uno, ubicado a solo ocho cuadras de la Estación de Castelar lado Norte. Acceso vehicular y peatonal al Loteo Residencial Privado. En cada lote de terreno se podrá construir una Vivienda Unifamiliar. EXCELENTE OPORTUNIDAD PARA VIVIR EN TU CASA SOÑADA, MÁS SEGURO Y MÁS.', 
     left: false
   }
 ]

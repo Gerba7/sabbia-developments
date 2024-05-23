@@ -87,18 +87,18 @@
 @media (max-height: 700px) and (min-width: 1000px) {
 
     .gridItem {
-        width: 350px;
-        height: 250px;
+        width: 330px;
+        height: 230px;
     }
 
     .backgroundImage {
-        width: 350px;
-        height: 250px;
+        width: 330px;
+        height: 230px;
     }
 
     .descriptionContainer {
-        width: 350px;
-        height: 250px;
+        width: 330px;
+        height: 230px;
     }
 
 }
