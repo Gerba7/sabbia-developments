@@ -31,7 +31,6 @@
     font-size: 14px;
     line-height: 25px;
     color: var(--bgBrand);
-    text-align: justify;
 }
 
 .serviceContainer:hover {
