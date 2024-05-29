@@ -1,7 +1,5 @@
 import ContactButton from './ContactButton/ContactButton';
 import styles from './contactRow.module.css';
-import Parallax from '../../../../../public/images/formCover.jpg';
-import Image from 'next/image';
 
 
 
@@ -12,7 +10,7 @@ const ContactRow = () => {
       <div className={styles.container} > 
         <div className={styles.back}>
         </div>
-          <h3 className={styles.title}>CONTACTATE CON NOSOTROS</h3>
+          <h3 className={styles.title}>CONTACTO</h3>
           <div className={styles.description}>Descubrí cómo podemos hacer realidad tu proyecto.<br/>Estamos para escucharte y responder a todas tus preguntas.<br/>¡Contactános ahora y dejános ser parte de tu visión!</div>
           <ContactButton  />
       </div>

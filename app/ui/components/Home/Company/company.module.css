@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 2vh;
+    gap: 4vh;
     padding: 50px;
 }
 
@@ -19,6 +19,24 @@
     font-size: 16px;
     font-weight: 500;
     color: var(--text);
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2vh; /* Adjust as needed */
+    width: 10%;
+    height: 1px;
+    background: rgb(182,154,121);
+    background: linear-gradient(90deg, rgba(182,154,121,1) 0%, rgba(255,216,162,1) 50%, rgba(182,154,121,1) 100%);
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+.serviceContainer:hover .title::after {
+    width: 50%;
 }
 
 .hr {

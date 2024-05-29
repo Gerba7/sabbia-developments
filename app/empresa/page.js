@@ -11,11 +11,7 @@ const WhoWeAre = () => {
       <PageCover2 title={'EMPRESA'} />
       <div className={styles.container}>
         <div className={styles.serviceContainer}>
-          <div className={styles.icon}>
-            <Image src={Building} alt='building' width={50} height={50} />
-          </div>
           <h5 className={styles.title}>SOBRE NOSOTROS</h5>
-          <hr className={styles.hr} />
           <div className={styles.description}>
             <h4 className={styles.paragraph}>
                 Somos una empresa constructora de prestigio, especializada en viviendas unifamiliares 

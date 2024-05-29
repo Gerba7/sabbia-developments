@@ -13,11 +13,7 @@ const Services = () => {
       <PageCover2 title={'SERVICIOS'} />
       <div className={styles.wrapper}>
         <div className={styles.serviceContainer}>
-          <div className={styles.icon}>
-            <Image src={House} alt='house' width={50} height={50} />
-          </div>
           <h5 className={styles.title}>DESARROLLO</h5>
-          <hr className={styles.hr} />
           <p className={styles.description}>
             Ofrecemos una búsqueda meticulosa de propiedades y terrenos, 
             acompañada de un análisis de factibilidad exhaustivo, asesoramiento 
@@ -28,11 +24,7 @@ const Services = () => {
           </p>
         </div>
         <div className={styles.serviceContainer}>
-          <div className={styles.icon}>
-            <Image src={Blueprint} alt='house' width={50} height={50} />
-          </div>
           <h5 className={styles.title}>PROYECTO Y DIRECCIÓN</h5>
-          <hr className={styles.hr} />
           <p className={styles.description}>
             Nuestro equipo se encarga del diseño integral y la elaboración de planos 
             detallados, garantizando una ejecución impecable de cada obra. Mediante 
@@ -43,11 +35,7 @@ const Services = () => {
           </p>
         </div>
         <div className={styles.serviceContainer}>
-          <div className={styles.icon}>
-            <Image src={Architect} alt='house' width={50} height={50} />
-          </div>
           <h5 className={styles.title}>CONSTRUCCIÓN</h5>
-          <hr className={styles.hr} />
           <p className={styles.description}>
             Mantenemos una presencia activa en cada fase de la construcción, ejerciendo un 
             control riguroso sobre la calidad de los materiales y su utilización óptima. 

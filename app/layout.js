@@ -39,8 +39,8 @@ const customFont = localFont({
 })
 
 export const metadata = {
-  title: "Sabbia Construcciones",
-  description: "Desarrollos inmobiliarioss",
+  title: "SABBIA VOLUMI",
+  description: "Desarrollos inmobiliarios",
 };
 
 export default function RootLayout({ children }) {
