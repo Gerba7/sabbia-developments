@@ -3,7 +3,7 @@
 import styles from './contactForm.module.css';
 import FormCover from '../../../../../public/images/formCover.jpg';
 import Image from 'next/image';
-import Logo from '../../../../../public/images/logo.svg';
+import Logo from '../../../../../public/images/SABBIA_LOGO_BRIGHT_3.png';
 import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import AlternateEmailOutlinedIcon from '@mui/icons-material/AlternateEmailOutlined';
@@ -41,8 +41,7 @@ const ContactForm = () => {
       </div>
       <div className={styles.formContainer}>
         <div className={styles.left}>
-            <Image src={Sabbia_Logo} alt='sabbia logo' width={250} height={50} />
-            <h3 className={styles.contactTitle}>Datos de Contacto</h3>
+            <Image src={Logo} alt='sabbia logo' width={250} height={65} className={styles.logo} />
             <div className={styles.iconsContainer}>
                 <div className={styles.icon}>
                     <GradientIcon icon={<FmdGoodOutlinedIcon sx={{ fill: "url(#linearColors)"}} />} />

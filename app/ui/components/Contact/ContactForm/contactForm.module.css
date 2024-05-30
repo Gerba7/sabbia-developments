@@ -87,6 +87,10 @@
     color: var(--textBright);
 }
 
+.logo {
+    color: red;
+}
+
 .contactTitle {
     font-size: 20px;
     font-weight: 700;

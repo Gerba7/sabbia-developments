@@ -27,7 +27,7 @@ const projects = [
   {
     id: 0,
     title: 'VIVIENDA 1',
-    img: [Casa1a, Casa1b, Casa1c, Casa1d, Casa1e, Casa1f, Casa1g],
+    img: [Casa2b, Casa1a, Casa1b, Casa1c, Casa1d, Casa1e, Casa1f, Casa1g, Casa2a, Casa2c, Casa2d, Casa2e, Casa2f],
     text: 
     <>
       -  Sus superficies  de 700 a 750 m2 cubiertos respectivamente. <br/>
@@ -44,7 +44,7 @@ const projects = [
   {
     id: 1,
     title: 'VIVIENDA 2',
-    img: [Casa2a, Casa2b, Casa2c, Casa2d, Casa2e, Casa2f, Casa2g, Casa2h, Casa2i, Casa2j, Casa2k, Casa2l],
+    img: [Casa2g, Casa2h, Casa2i, Casa2j, Casa2k, Casa2l],
     text:
     <>
       -  Sus superficies  de 800 a 850 m2 cubiertos respectivamente. <br/>
