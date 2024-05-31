@@ -22,7 +22,7 @@ const ContactButton = () => {
   return (
     <div style={{zIndex: '5'}}>
       <Link href="/contacto" className={styles.button}>
-        CONTACTO <GradientIcon icon={<ForwardToInboxIcon sx={{ fill: "url(#linearColors)"}} />} />
+        EMAIL <GradientIcon icon={<ForwardToInboxIcon sx={{ fill: "url(#linearColors)"}} />} />
       </Link>
     </div>
   )

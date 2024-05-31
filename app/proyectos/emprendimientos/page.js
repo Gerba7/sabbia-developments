@@ -282,7 +282,7 @@ const Projects = () => {
   return (
     <div style={{overflowX: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
       <PageCover2 title={'PROYECTOS'} />
-      <ProjectsTitle title={'EDIFICIOS'} subtitle={'Y CORREDORES'} />
+      <ProjectsTitle title={'EMPRENDIMIENTOS'} subtitle={'INMOBILIARIOS'} />
       <div className={styles.gridContainer}>
         {projects.map((project, index) => {
           return(
