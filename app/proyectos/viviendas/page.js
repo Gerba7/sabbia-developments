@@ -21,6 +21,8 @@ import Casa2i from '../../../public/images/casas/Casa2i.jpg';
 import Casa2j from '../../../public/images/casas/Casa2j.jpg';
 import Casa2k from '../../../public/images/casas/Casa2k.jpg';
 import Casa2l from '../../../public/images/casas/Casa2l.jpg';
+import Casa3 from '../../../public/images/casas/Casa3.jpeg';
+import Casa3b from '../../../public/images/casas/Casa3b.jpeg';
 
 
 const projects = [
@@ -48,6 +50,23 @@ const projects = [
     text:
     <>
       -  Sus superficies  de 800 a 850 m2 cubiertos respectivamente. <br/>
+      -  Ambas de 5 ambientes con dependencia de servicio y baños en suite. <br/>
+      -  Playroom , quincho con pileta cubierta y descubierta.<br/>
+      -  Losa radiante más equipos de A/A central. <br/>
+      -  Ventanas de pvc / aluminio DVH. <br/>
+      -  Diseño de volúmenes, techos planos y líneas rectas.<br/>
+      -  Construcción tradicional de H° / mampostería , terminaciones
+      en yeso , madera y piedra.
+    </>,
+    left: true
+  },
+  {
+    id: 2,
+    title: 'VIVIENDA 3',
+    img: [Casa3, Casa3b],
+    text:
+    <>
+      -  Sus superficies  de 700 m2 cubiertos respectivamente. <br/>
       -  Ambas de 5 ambientes con dependencia de servicio y baños en suite. <br/>
       -  Playroom , quincho con pileta cubierta y descubierta.<br/>
       -  Losa radiante más equipos de A/A central. <br/>

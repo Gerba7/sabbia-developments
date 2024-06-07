@@ -2,7 +2,7 @@ const nodemailer = require("nodemailer");
 
 
 
-async function borealisMail(subject, html) {
+async function sabbiaMail(subject, html) {
     
     try {
         
@@ -11,15 +11,15 @@ async function borealisMail(subject, html) {
             port: 465,
             secure: true,
             auth: {
-                user: 'contact@australisdevs.com',
+                user: 'info@sabbiavolumi.ar',
                 pass: process.env.EMAIL_PASS,
             },
             tls : { rejectUnauthorized: false }
         })
 
         const mailOptions = {
-            from: 'BorealisDevs <contact@australisdevs.com>',
-            bcc: 'contact@australisdevs.com',
+            from: 'Sabbia Volumi <info@sabbiavolumi.ar>',
+            bcc: 'info@sabbiavolumi.ar',
             subject: subject,
             html: html,
         };
@@ -41,5 +41,5 @@ async function borealisMail(subject, html) {
 
 
 module.exports = {
-    borealisMail,
+    sabbiaMail,
 }
