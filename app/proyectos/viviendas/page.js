@@ -23,6 +23,7 @@ import Casa2k from '../../../public/images/casas/Casa2k.jpg';
 import Casa2l from '../../../public/images/casas/Casa2l.jpg';
 import Casa3 from '../../../public/images/casas/Casa3.jpeg';
 import Casa3b from '../../../public/images/casas/Casa3b.jpeg';
+import Casa3c from '../../../public/images/casas/Casa3c.jpeg';
 
 
 const projects = [
@@ -63,7 +64,7 @@ const projects = [
   {
     id: 2,
     title: 'VIVIENDA 3',
-    img: [Casa3, Casa3b],
+    img: [Casa3c, Casa3, Casa3b],
     text:
     <>
       -  Sus superficies  de 700 m2 cubiertos respectivamente. <br/>
